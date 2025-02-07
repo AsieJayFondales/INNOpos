@@ -1,0 +1,182 @@
+html {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+ 
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 60px !important;
+    padding: 5px 10px; /* Adjust the button size */
+    max-width: 600px;
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.btn-outline-dark {
+    border-radius: 60px; /* Adjust the value as needed */
+}
+
+
+/* Apply rounded corners to the Register/signup button */
+#registerSubmit {
+    border-radius: 60px !important; /* Match the roundness with inputs */
+    padding: 10px 15px; /* Adjust the button size */
+    max-width: 600px; 
+    /* Add this CSS to style the button with rounded corners */
+    
+}
+
+#forgot-password {
+        color: #343a40; /* Dark text color */
+        float: right !important; /* Float to the right */
+        text-decoration: none; /* Remove underline */
+    }
+
+    
+/*Log in submit button*/
+.submit {
+    border-radius: 60px !important;  
+    padding: 5px 10px; /* Adjust the button size */
+    max-width: 600px; /* Adjust the form width */
+    margin: 0 auto; /* Center the form horizontally */
+}
+ 
+
+
+/* Optional: Center the form container with some styling */
+.form-box {
+    max-width: 600px; /* Adjust the form width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border-radius: 20px; /* Apply rounded corners to the form box */
+  
+}
+
+/*Text box in register/signup */
+.form-control {
+    border-radius: 60px !important;
+    padding: 16px 25px !important; /* Increase top & bottom padding */
+    line-height: 1.8 !important; /* Adjust line height */
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 60px;
+    min-width: 500px;
+}
+
+/* Center the placeholder text initially */
+.form-floating > .form-control {
+    height: 55px !important; /* Ensure consistent height */
+    padding-top: 15px !important; /* Center text inside input */
+    padding-bottom: 5px !important; /* Balance padding */
+    line-height: 1.5 !important; /* Keep text spacing proper */
+    text-align: left; /* Align text to the left */ 
+}
+
+    /* Ensure label moves up when user types */
+    .form-floating > .form-control:focus,
+    .form-floating > .form-control:not(:placeholder-shown) {
+        padding-top: 25px !important; /* Moves text down slightly */
+    }
+
+/* Fix label positioning */
+.form-floating label {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Move label up on focus */
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    top: 5px;
+    font-size: 12px;
+    color: #555;
+}
+
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color:#000000;
+}
+
+    .divider::before,
+    .divider::after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #000; /* Line color */
+        margin: 5px;
+    }
+
+    .divider span {
+        padding: 0 10px;
+        font-size: 14px;
+        color: #000000; /* Adjust text color */
+    }
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Adjust button width */
+    padding: 12px;
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 6px; /* Rounded corners */
+    background-color: white;
+    color: #333;
+    font-size: 16px;  
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    .google-btn img {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px; /* Space between logo and text */
+    }
+
+/*login, create an account button*/
+ 
+
+    .register-container .form-box form button #submit {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #000;
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .register-container .form-box form button#submit:hover {
+            background-color: #000;
+            color: #fff;
+        }
+ 
