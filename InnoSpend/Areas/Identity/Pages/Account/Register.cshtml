@@ -3,51 +3,58 @@
 @{
     ViewData["Title"] = "Hello, Admin";
 }
+<head> 
+    <script type="module" src="~/js/register.js" defer></script>
+</head>
 
-<div class="register-container">
-    <div class="form-box"> 
+<div class="row" style="border:none">
+    <div class="col-md-5 mx-auto p-3">
         <h2 class ="bold-title"> Sign Up</h2>
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.UserName" class="form-control" autocomplete="username" aria-required="true" placeholder="Enter your Name" />
+                <input asp-for="Input.UserName" id="UserName" class="form-control" autocomplete="username" aria-required="true" placeholder="Enter your Name" />
                 <label asp-for="Input.UserName">Enter your Name</label>
                 <span asp-validation-for="Input.UserName" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.BussName" class="form-control" autocomplete="username" aria-required="true" placeholder="Enter your Business Name" />
+                <input asp-for="Input.BussName" type="text" id="BusinessName" class="form-control" autocomplete="business name" aria-required="true" placeholder="Enter your Business Name" />
                 <label asp-for="Input.BussName">Enter your Business Name</label>
                 <span asp-validation-for="Input.BussName" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" autocomplete="phone number" aria-required="true" placeholder="Enter your Phone Number" />
-                <label asp-for="Input.PhoneNumber">Enter your Phone Number</label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-            </div>
-
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <input asp-for="Input.Email" type="email" id="Email" class="form-control" autocomplete="Email" aria-required="true" placeholder="name@example.com" />
                 <label asp-for="Input.Email">Enter your email address</label>
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Set Password" />
-                <label asp-for="Input.Password">Set Password</label>
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                <input asp-for="Input.PhoneNumber" type="tel" id="PhoneNumber" class="form-control" autocomplete="phone number" aria-required="true" placeholder="Enter your Phone Number" />
+                <label asp-for="Input.PhoneNumber">Enter your Phone Number</label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <input asp-for="Input.Password" type="password" class="form-control" id="passwordInput" autocomplete="new-password" aria-required="true" placeholder="Set Password" />
+                <label asp-for="Input.Password">Set Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                <img src="/images/eye-off.svg" id="togglePassword" class="password-toggle" onclick="togglePasswordVisibility()" />
+            </div>
+
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" type="password" class="form-control" id="confirmPasswordInput" autocomplete="new-password" aria-required="true" placeholder="Confirm Password" />
                 <label asp-for="Input.ConfirmPassword">Confirm Password</label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                <img src="/images/eye-off.svg" id="toggleConfirmPassword" class="password-toggle" onclick="togglePasswordVisibility2()" />
             </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
             <br />
             
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+            <button id="submit" type="submit" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
             <br />
             <br />
             <a id="have-acount" asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="d-block text-center text-dark text-decoration-none"> Already have an account?</a>
@@ -55,7 +62,10 @@
             <div class="divider">
                 <span>or</span>
             </div>
-            <button class="w-100 btn btn-lg btn-outline-dark"> Sign up with Google</button> 
+            <button class="w-100 btn btn-lg btn-outline-dark">
+                <img src="~/images/google.svg" alt="Google Icon" class="img-fluid" style="width: 30px; height: 30px; margin-right: 10px;" />
+                Sign up with Google
+            </button>
 
         </form>
     </div>

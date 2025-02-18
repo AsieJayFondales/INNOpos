@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Err1PUCR8ybMJbEYdlZ8SUpil1HP/ea5n10EktpcoTY=",
+  "Hash": "L7q3NMEzbQnqjGmZs6lGpckSOFG2s4CK/d60S48Ios4=",
   "Source": "InnoSpend",
   "BasePath": "_content/InnoSpend",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "InnoSpend\\wwwroot",
       "Source": "InnoSpend",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css",
       "SourceId": "InnoSpend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "InnoSpend#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "tvpOUmMOh1v8Jm3unrEJuB1WbXpgh6koy+TUC4FSqsg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css",
       "SourceId": "InnoSpend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "InnoSpend#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "tvpOUmMOh1v8Jm3unrEJuB1WbXpgh6koy+TUC4FSqsg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\css\\site.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1333,17 +1333,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wh6eclxd8r",
-      "Integrity": "ZGg76UtPsfkME4DSxHoLHbzsvj76cC2jqn4liwYRUcY=",
+      "Fingerprint": "ed45010fpb",
+      "Integrity": "nvZ2QF0l4InLNVBj5dviI3y6sWDRfGYwsFJXIyadr8I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\favicon.ico",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1361,10 +1361,94 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\eye.svg",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
+      "BasePath": "_content/InnoSpend",
+      "RelativePath": "images/eye#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dknycjb0ks",
+      "Integrity": "M+xPQ5PWb2PBsPir2OsIm5olCCQh21+/aa9I5dHgkhY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eye.svg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\eye-off.svg",
+      "SourceId": "InnoSpend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
+      "BasePath": "_content/InnoSpend",
+      "RelativePath": "images/eye-off#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v619z9v3kg",
+      "Integrity": "R+UYbsAUckstWjvk+PXG2XTK6+m3uliu/7okqxBwfQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eye-off.svg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\google.svg",
+      "SourceId": "InnoSpend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
+      "BasePath": "_content/InnoSpend",
+      "RelativePath": "images/google#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vx7q025gkf",
+      "Integrity": "s0LnGQ3740huC6a1NYXbLLFv9ClSFGH5UAURZnTlKUQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\google.svg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\js\\register.js",
+      "SourceId": "InnoSpend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
+      "BasePath": "_content/InnoSpend",
+      "RelativePath": "js/register#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d9xi4s3u0b",
+      "Integrity": "4Zwi1NT7eTY1JCnoQ6FwsgaiGXFwSCcSrS07/SIurwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\register.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\js\\site.js",
+      "SourceId": "InnoSpend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1375,17 +1459,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "9g0mv114c4",
+      "Integrity": "NyFnIUepR4eob2MTN7utCMAJ6dzzw+Qic757z+yf/A8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1396,17 +1480,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mpyigms19s",
-      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "Fingerprint": "7kvjg6950s",
+      "Integrity": "h97mjd6IlbkVPo/wOXCEyadgMcZEr8mGuzF28u4quc8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1424,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1438,17 +1522,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "Fingerprint": "ljp41ix2cs",
+      "Integrity": "URN2IplG3dtjiaddRld10PafDwvdY2VcGEEDn8IydR8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1466,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1529,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1550,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1697,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1739,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1781,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1802,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1823,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1865,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1886,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1907,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1928,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1949,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1970,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1991,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2012,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2033,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2054,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2075,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2096,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2117,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2138,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2159,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2180,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2201,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2222,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2243,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2264,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2285,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2306,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2327,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2348,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2369,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2390,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2411,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2432,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2453,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2474,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2495,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2516,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2537,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2558,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2582,7 +2666,7 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2591,7 +2675,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4410"
+          "Value": "6436"
         },
         {
           "Name": "Content-Type",
@@ -2599,11 +2683,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZGg76UtPsfkME4DSxHoLHbzsvj76cC2jqn4liwYRUcY=\""
+          "Value": "\"nvZ2QF0l4InLNVBj5dviI3y6sWDRfGYwsFJXIyadr8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 20:20:35 GMT"
+          "Value": "Sat, 15 Feb 2025 07:29:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2613,13 +2697,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZGg76UtPsfkME4DSxHoLHbzsvj76cC2jqn4liwYRUcY="
+          "Value": "sha256-nvZ2QF0l4InLNVBj5dviI3y6sWDRfGYwsFJXIyadr8I="
         }
       ]
     },
     {
-      "Route": "css/site.wh6eclxd8r.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\css\\site.css",
+      "Route": "css/site.ed45010fpb.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2628,7 +2712,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4410"
+          "Value": "6436"
         },
         {
           "Name": "Content-Type",
@@ -2636,11 +2720,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZGg76UtPsfkME4DSxHoLHbzsvj76cC2jqn4liwYRUcY=\""
+          "Value": "\"nvZ2QF0l4InLNVBj5dviI3y6sWDRfGYwsFJXIyadr8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 20:20:35 GMT"
+          "Value": "Sat, 15 Feb 2025 07:29:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2650,7 +2734,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wh6eclxd8r"
+          "Value": "ed45010fpb"
         },
         {
           "Name": "label",
@@ -2658,13 +2742,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZGg76UtPsfkME4DSxHoLHbzsvj76cC2jqn4liwYRUcY="
+          "Value": "sha256-nvZ2QF0l4InLNVBj5dviI3y6sWDRfGYwsFJXIyadr8I="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2709,7 +2793,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4965,8 +5049,254 @@
       ]
     },
     {
+      "Route": "images/eye.dknycjb0ks.svg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\eye.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M+xPQ5PWb2PBsPir2OsIm5olCCQh21+/aa9I5dHgkhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 15:17:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dknycjb0ks"
+        },
+        {
+          "Name": "label",
+          "Value": "images/eye.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M+xPQ5PWb2PBsPir2OsIm5olCCQh21+/aa9I5dHgkhY="
+        }
+      ]
+    },
+    {
+      "Route": "images/eye.svg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\eye.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M+xPQ5PWb2PBsPir2OsIm5olCCQh21+/aa9I5dHgkhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 15:17:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M+xPQ5PWb2PBsPir2OsIm5olCCQh21+/aa9I5dHgkhY="
+        }
+      ]
+    },
+    {
+      "Route": "images/eye-off.svg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\eye-off.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+UYbsAUckstWjvk+PXG2XTK6+m3uliu/7okqxBwfQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 14:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+UYbsAUckstWjvk+PXG2XTK6+m3uliu/7okqxBwfQU="
+        }
+      ]
+    },
+    {
+      "Route": "images/eye-off.v619z9v3kg.svg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\eye-off.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+UYbsAUckstWjvk+PXG2XTK6+m3uliu/7okqxBwfQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 14:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v619z9v3kg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/eye-off.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+UYbsAUckstWjvk+PXG2XTK6+m3uliu/7okqxBwfQU="
+        }
+      ]
+    },
+    {
+      "Route": "images/google.svg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\google.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s0LnGQ3740huC6a1NYXbLLFv9ClSFGH5UAURZnTlKUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 06:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s0LnGQ3740huC6a1NYXbLLFv9ClSFGH5UAURZnTlKUQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/google.vx7q025gkf.svg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\images\\google.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s0LnGQ3740huC6a1NYXbLLFv9ClSFGH5UAURZnTlKUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 06:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vx7q025gkf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/google.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s0LnGQ3740huC6a1NYXbLLFv9ClSFGH5UAURZnTlKUQ="
+        }
+      ]
+    },
+    {
       "Route": "InnoSpend.6pcseuhzko.bundle.scp.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5011,7 +5341,7 @@
     },
     {
       "Route": "InnoSpend.6pcseuhzko.styles.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5056,7 +5386,7 @@
     },
     {
       "Route": "InnoSpend.bundle.scp.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InnoSpend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5093,7 +5423,7 @@
     },
     {
       "Route": "InnoSpend.styles.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InnoSpend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5129,8 +5459,8 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\js\\site.js",
+      "Route": "js/register.d9xi4s3u0b.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\js\\register.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5139,7 +5469,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "1617"
         },
         {
           "Name": "Content-Type",
@@ -5147,48 +5477,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"4Zwi1NT7eTY1JCnoQ6FwsgaiGXFwSCcSrS07/SIurwc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 13:25:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 13:25:28 GMT"
+          "Value": "Mon, 17 Feb 2025 05:52:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5198,7 +5491,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "d9xi4s3u0b"
+        },
+        {
+          "Name": "label",
+          "Value": "js/register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Zwi1NT7eTY1JCnoQ6FwsgaiGXFwSCcSrS07/SIurwc="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\js\\register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Zwi1NT7eTY1JCnoQ6FwsgaiGXFwSCcSrS07/SIurwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 05:52:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Zwi1NT7eTY1JCnoQ6FwsgaiGXFwSCcSrS07/SIurwc="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.9g0mv114c4.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NyFnIUepR4eob2MTN7utCMAJ6dzzw+Qic757z+yf/A8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 03:40:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9g0mv114c4"
         },
         {
           "Name": "label",
@@ -5206,13 +5581,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-NyFnIUepR4eob2MTN7utCMAJ6dzzw+Qic757z+yf/A8="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NyFnIUepR4eob2MTN7utCMAJ6dzzw+Qic757z+yf/A8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 03:40:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NyFnIUepR4eob2MTN7utCMAJ6dzzw+Qic757z+yf/A8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.7kvjg6950s.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5229,11 +5641,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"h97mjd6IlbkVPo/wOXCEyadgMcZEr8mGuzF28u4quc8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 13:25:28 GMT"
+          "Value": "Mon, 17 Feb 2025 02:42:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kvjg6950s"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h97mjd6IlbkVPo/wOXCEyadgMcZEr8mGuzF28u4quc8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h97mjd6IlbkVPo/wOXCEyadgMcZEr8mGuzF28u4quc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 02:42:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5243,13 +5700,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-h97mjd6IlbkVPo/wOXCEyadgMcZEr8mGuzF28u4quc8="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5294,7 +5751,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5330,53 +5787,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 13:25:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5385,7 +5797,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162970"
         },
         {
           "Name": "Content-Type",
@@ -5393,11 +5805,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"URN2IplG3dtjiaddRld10PafDwvdY2VcGEEDn8IydR8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 13:25:28 GMT"
+          "Value": "Mon, 17 Feb 2025 02:43:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5407,13 +5819,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-URN2IplG3dtjiaddRld10PafDwvdY2VcGEEDn8IydR8="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5458,7 +5870,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5494,8 +5906,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.ljp41ix2cs.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5504,7 +5916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "162970"
         },
         {
           "Name": "Content-Type",
@@ -5512,11 +5924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"URN2IplG3dtjiaddRld10PafDwvdY2VcGEEDn8IydR8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 13:25:28 GMT"
+          "Value": "Mon, 17 Feb 2025 02:43:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5526,21 +5938,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mpyigms19s"
+          "Value": "ljp41ix2cs"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-URN2IplG3dtjiaddRld10PafDwvdY2VcGEEDn8IydR8="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5577,7 +5989,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5622,7 +6034,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5659,7 +6071,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5704,7 +6116,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5741,7 +6153,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5786,7 +6198,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5823,7 +6235,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5868,7 +6280,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5913,7 +6325,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5950,7 +6362,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5987,7 +6399,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6032,7 +6444,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6069,7 +6481,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6114,7 +6526,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6151,7 +6563,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6196,7 +6608,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6233,7 +6645,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6278,7 +6690,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6315,7 +6727,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6352,7 +6764,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6389,7 +6801,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6434,7 +6846,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6479,7 +6891,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6524,7 +6936,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6569,7 +6981,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6606,7 +7018,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6651,7 +7063,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6688,7 +7100,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6725,7 +7137,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6762,7 +7174,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6807,7 +7219,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6852,7 +7264,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6897,7 +7309,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6934,7 +7346,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6979,7 +7391,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7016,7 +7428,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7053,7 +7465,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7090,7 +7502,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7135,7 +7547,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7180,7 +7592,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7217,7 +7629,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7262,7 +7674,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7299,7 +7711,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7344,7 +7756,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7381,7 +7793,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7418,7 +7830,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7463,7 +7875,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7508,7 +7920,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7545,7 +7957,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7590,7 +8002,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7627,7 +8039,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7664,7 +8076,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7709,7 +8121,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7746,7 +8158,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7791,7 +8203,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7836,7 +8248,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7873,7 +8285,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7918,7 +8330,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7955,7 +8367,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8000,7 +8412,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8045,7 +8457,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8082,7 +8494,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8127,7 +8539,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8164,7 +8576,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8201,7 +8613,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8246,7 +8658,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8283,7 +8695,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8328,7 +8740,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8365,7 +8777,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8402,7 +8814,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8447,7 +8859,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8492,7 +8904,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8529,7 +8941,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8574,7 +8986,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8611,7 +9023,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8648,7 +9060,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8685,7 +9097,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8730,7 +9142,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8775,7 +9187,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8820,7 +9232,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8857,7 +9269,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8902,7 +9314,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8947,7 +9359,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8984,7 +9396,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9029,7 +9441,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9074,7 +9486,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9111,7 +9523,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9148,7 +9560,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9193,7 +9605,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9230,7 +9642,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9275,7 +9687,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9312,7 +9724,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9357,7 +9769,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9394,7 +9806,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9431,7 +9843,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9476,7 +9888,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9513,7 +9925,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9558,7 +9970,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9595,7 +10007,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9640,7 +10052,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9685,7 +10097,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9722,7 +10134,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9767,7 +10179,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9804,7 +10216,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9849,7 +10261,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\BSCS\\OJT\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {

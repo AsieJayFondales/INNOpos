@@ -20,22 +20,15 @@ html {
 
 body {
     margin-bottom: 60px;
+    margin: 0;
+    padding-bottom: 20px; /* Height of the footer */
+    box-sizing: border-box
 }
 
 .bold-title {
     font-weight: bold;
 }
 
-button {
-    border-radius: 60px !important;
-    padding: 5px 10px; /* Adjust the button size */
-    max-width: 600px;
-    margin: 0 auto; /* Center the form horizontally */
-}
-
-.btn-outline-dark {
-    border-radius: 60px; /* Adjust the value as needed */
-}
 
 
 /* Apply rounded corners to the Register/signup button */
@@ -52,68 +45,6 @@ button {
         float: right !important; /* Float to the right */
         text-decoration: none; /* Remove underline */
     }
-
-    
-/*Log in submit button*/
-.submit {
-    border-radius: 60px !important;  
-    padding: 5px 10px; /* Adjust the button size */
-    max-width: 600px; /* Adjust the form width */
-    margin: 0 auto; /* Center the form horizontally */
-}
- 
-
-
-/* Optional: Center the form container with some styling */
-.form-box {
-    max-width: 600px; /* Adjust the form width */
-    margin: 0 auto; /* Center the form horizontally */
-    padding: 20px;
-    border-radius: 20px; /* Apply rounded corners to the form box */
-  
-}
-
-/*Text box in register/signup */
-.form-control {
-    border-radius: 60px !important;
-    padding: 16px 25px !important; /* Increase top & bottom padding */
-    line-height: 1.8 !important; /* Adjust line height */
-    box-sizing: border-box;
-    border: 1px solid #000;
-    border-radius: 60px;
-    min-width: 500px;
-}
-
-/* Center the placeholder text initially */
-.form-floating > .form-control {
-    height: 55px !important; /* Ensure consistent height */
-    padding-top: 15px !important; /* Center text inside input */
-    padding-bottom: 5px !important; /* Balance padding */
-    line-height: 1.5 !important; /* Keep text spacing proper */
-    text-align: left; /* Align text to the left */ 
-}
-
-    /* Ensure label moves up when user types */
-    .form-floating > .form-control:focus,
-    .form-floating > .form-control:not(:placeholder-shown) {
-        padding-top: 25px !important; /* Moves text down slightly */
-    }
-
-/* Fix label positioning */
-.form-floating label {
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    transition: all 0.3s ease-in-out;
-}
-
-/* Move label up on focus */
-.form-floating > .form-control:focus ~ label,
-.form-floating > .form-control:not(:placeholder-shown) ~ label {
-    top: 5px;
-    font-size: 12px;
-    color: #555;
-}
 
 
 .divider {
@@ -179,4 +110,102 @@ button {
             background-color: #000;
             color: #fff;
         }
+
+
+/* Ensure password wrapper has relative positioning */
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Eye icon styling */
+.password-toggle {
+    position: absolute;
+    right: 15px; /* Adjust to align inside input */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px; /* Ensure appropriate size */
+    height: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+/*_Layout.cshtml footer*/  
+.footer-container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    line-height: 15px;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-column h6 {
+    font-size: 12px; /* Reduced font size */
+    font-weight: bold; 
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 
  
+ 
+ 
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px; /* Height of the footer */
+    white-space: nowrap;
+    
+}
+
+
+.footer-column {
+   text-align: left;
+}
+
+    .footer-column h6 {
+        font-size: 11px; /* Reduced font size */
+        font-weight: bold;
+        margin-right: 60px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+.footer-column ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.footer-column ul li {
+   margin-bottom: 0; /* Reduced margin */
+}
+
+.footer-column ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 12px; /* Reduced font size */ 
+}
+
+.footer-column ul li a:hover {
+   text-decoration: underline;
+}
+
+.footer-bottom {
+    white-space: nowrap;
+    margin: 1px;
+    font-size: 11px;
+    line-height: 15px;
+}

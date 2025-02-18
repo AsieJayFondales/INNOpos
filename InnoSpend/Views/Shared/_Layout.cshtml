@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,12 +23,24 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="@(SignInManager.IsSignedIn(User) ? "HomePage" : "HomePage")">Home</a>
                         </li>
+
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Products">Products </a>
+                            </li>
+                            }
+                         
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        </li> 
+
                     </ul>
+
+                     
 
 
                     <partial name="_LoginPartial" />
@@ -40,10 +55,51 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - InnoSpend - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h6>CUSTOMER SERVICE</h6>
+                <ul>
+                    <li><a href="#">Help Centre</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Free Shipping</a></li>
+                    <li><a href="#">Return & Refund</a></li>
+                    <li><a href="#">InnoSpend Guarantee</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h6>ABOUT INNOSPEND</h6>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Company Policies</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Media Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h6>FOLLOW US</h6>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                <a href="#">Privacy & Cookies</a> |
+                <a href="#">Terms & Conditions</a>
+            </p>
+            <p>© 2025 INNO Digital Marketing. All Rights Reserved.</p>
         </div>
     </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

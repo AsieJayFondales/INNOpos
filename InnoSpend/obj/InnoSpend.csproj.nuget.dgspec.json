@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BSCS\\OJT\\InnoSpend\\InnoSpend.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\InnoSpend.csproj": {}
   },
   "projects": {
-    "D:\\BSCS\\OJT\\InnoSpend\\InnoSpend.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\InnoSpend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BSCS\\OJT\\InnoSpend\\InnoSpend.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\InnoSpend.csproj",
         "projectName": "InnoSpend",
-        "projectPath": "D:\\BSCS\\OJT\\InnoSpend\\InnoSpend.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\InnoSpend.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\BSCS\\OJT\\InnoSpend\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -48,34 +48,34 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
