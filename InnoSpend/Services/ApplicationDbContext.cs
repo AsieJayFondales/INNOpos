@@ -11,5 +11,8 @@ namespace InnoSpend.Services
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<CustomerInfo> Customers { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

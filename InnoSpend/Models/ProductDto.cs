@@ -8,9 +8,11 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace InnoSpend.Models
-{ 
-    public class ProductDto 
+{
+    public class ProductDto
     {
+        public int Id { get; set; }
+
         [Required, MaxLength(100)]
         public string Name { get; set; } = "";
 
@@ -20,11 +22,25 @@ namespace InnoSpend.Models
         [Required, MaxLength(100)]
         public string Category { get; set; } = "";
 
-        [Required]
-        public decimal Price { get; set; }
+        public decimal? Price { get; set; }
 
+        [Required]
+        public decimal Cost { get; set; }
+
+        [Required]
         public string Description { get; set; } = "";
 
-        public IFormFile? ImageFile { get; set; } //required if create, optional if update
+        public IFormFile? ImageFile { get; set; }
+
+        public bool IsAvailableForSale { get; set; } = true;
+
+        [Required]
+        public string SoldBy { get; set; } = "Each";
+
+        [MaxLength(50)]
+        public string? SKU { get; set; }
+
+        [MaxLength(100)]
+        public string? Barcode { get; set; }
     }
 }

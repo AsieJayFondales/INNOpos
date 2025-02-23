@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0uwi4zycph</Fingerprint>
-      <Integrity>SHlvutuy78+0++aM65DPZI//YHbuhiOMp4XmYI/eV7s=</Integrity>
+      <Fingerprint>gpv494rj4z</Fingerprint>
+      <Integrity>fN0lsRWpEonO8VO0e8v1OWllBalAxUiY71iZ9XLLjbE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7kvjg6950s</Fingerprint>
-      <Integrity>h97mjd6IlbkVPo/wOXCEyadgMcZEr8mGuzF28u4quc8=</Integrity>
+      <Fingerprint>pc2fwapqre</Fingerprint>
+      <Integrity>V64ozrVnJLWl4otLaRQ7HuSSxuWUrCLQR6lBIXIXKmQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</OriginalItemSpec>
@@ -1188,23 +1188,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250218043346450.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250218124203997.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250220202146547.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>InnoSpend</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/InnoSpend</BasePath>
-      <RelativePath>products/20250218124203997.jpg</RelativePath>
+      <RelativePath>products/20250220202146547.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3u2644xdw8</Fingerprint>
-      <Integrity>27c/Dm58oMI3pQdhcjsvQhpeM8+eYBKXZpHJ5CoyAl0=</Integrity>
+      <Fingerprint>qiep1eivrh</Fingerprint>
+      <Integrity>PnHHvUbUkemNJ3J9v195011BflhYda6EUisUH3VlSc8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250218124203997.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250220202146547.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224015526485.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InnoSpend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InnoSpend</BasePath>
+      <RelativePath>products/20250224015526485.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cyx71zx4w1</Fingerprint>
+      <Integrity>XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224015526485.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224020826693.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InnoSpend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InnoSpend</BasePath>
+      <RelativePath>products/20250224020826693.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cyx71zx4w1</Fingerprint>
+      <Integrity>XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224020826693.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\cotton-t-shirt.jpg'))">
       <SourceType>Package</SourceType>

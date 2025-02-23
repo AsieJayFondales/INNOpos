@@ -7,147 +7,46 @@
 
 <!DOCTYPE html>  
 <html lang="en">  
-<head>  
-   <meta charset="UTF-8">  
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-   <title>@ViewData["Title"]</title>  
-   <style>  
-       body {  
-           font-family: Arial, Helvetica, sans-serif;  
-           background-color: #ffff;  
-           background: transparent;  
-           margin: 0;  
-           padding: 0;  
-           vertical-align: baseline;  
-       }  
+    <head>  
+       <meta charset="UTF-8">  
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+       <title>@ViewData["Title"]</title>  
+   
+    </head>  
+    <body>  
+      
+        <div class="container">  
+           <div style="display: flex; align-items: center;">  
+               <h5 style="margin: 15px;">Dashboard</h5>  
+               <input type="text" placeholder="Search..." style="width: 70%; padding: 10px; border-radius:30px; border: 1px solid #ccc; display: block; margin: 0 auto;">  
+              </div> 
+                <div class="row" style="border:none">
+                    <div class="col-md-4 p-3">
 
-       .navbar {  
-           background-color: #0078D7;  
-           color: white;   
-           font-size: 18px;  
-           display: flex;  
-           justify-content: space-between;  
-           align-items: center;  
-       }  
+                        <div class="row" style="white-space:nowrap">
+                            <div class="col-sm-4 d-grid">
+                                <a class="btn btn-outline-dark btn-sm mb-3 p-4 d-grid" asp-controller="Products" asp-action="Products" role="button">
+                                    Products
+                                </a>
+                            </div>
 
-       .logout {  
-           color: white;  
-           font-size: 16px;  
-           text-decoration: none;  
-           padding: 5px 10px;  
-           border-radius: 5px;   
-       }  
+                            <div class="col-sm-4 d-grid">
+                                <a class="btn btn-outline-dark btn-sm mb-3 p-4 d-grid" asp-controller="Customers" asp-action="Customers" role="button">
+                                    Customers
+                                </a>
+                            </div>
 
-       h5 {  
-           color: #0078D7;  
-           margin-bottom: 20px;  
-       }  
+                            <div class="col-sm-4 d-grid">
+                                <a class="btn btn-outline-dark btn-sm mb-3 p-4 d-grid" asp-area="" asp-page="/Customers/Customers" role="button">
+                                    Sales Report (Not yet Working)
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+           </div>  
 
-       .dashboard-buttons {  
-           display: grid;  
-           grid-template-columns: repeat(3, 1fr);  
-           gap: 15px;  
-           margin-top: 20px;  
-       }  
+        </div>  
 
-       .dashboard-button {   
-           color: black;  
-           background-color: #ffff;  
-           padding: 50px;  
-           border: none;  
-           border-radius: 8px !important;  
-           cursor: pointer;  
-           font-size: 18px;  
-           display: flex;  
-           align-items: center;  
-           justify-content: center ;    
-           filter: drop-shadow(2px 2px 5px #d3d3d3); /* Adds a drop shadow effect */  
-           width: 200px; /* Set a fixed height */  
-           height: 50px;  
-       }  
-
-       .dashboard-button:hover {  
-           background-color: #f0f0f0; /* very light gray */  
-       }  
-
-       .dashboard-button img {  
-           width: 20px;  
-           height: 20px;  
-           margin-right: 10px;  
-       }  
-
-       .sidebar {  
-           width: 250px;  
-           height: 100%;  
-           position: fixed;  
-           top: 0;  
-           left: -250px;  
-           background-color: #0078D7;  
-           overflow-x: hidden;  
-           transition: 0.5s;  
-           padding-top: 60px;  
-       }  
-
-       .sidebar a {  
-           padding: 10px 15px;  
-           text-decoration: none;  
-           font-size: 25px;  
-           color: white;  
-           display: block;  
-           transition: 0.3s;  
-       }  
-
-       .sidebar a:hover {  
-           background-color: #575757;  
-       }  
-
-       .sidebar .closebtn {  
-           position: absolute;  
-           top: 0;  
-           right: 25px;  
-           font-size: 36px;  
-           margin-left: 50px;  
-       }  
-
-       .open-sidebar {  
-           left: 0;  
-       }  
-   </style>  
-</head>  
-<body>  
-
-<img src="/images/burger-menu.svg" class="burger" alt="Menu" onclick="ToggleSidebar">  
-
-<div id="mySidebar" class="sidebar">  
-   <a href="javascript:void(0)" class="closebtn" onclick="ToggleSidebar">&times;</a>  
-   <a href="#">Home</a>  
-   <a href="#">Services</a>  
-   <a href="#">Clients</a>  
-   <a href="#">Contact</a>  
-</div>  
-
-<div class="container">  
-   <div style="display: flex; align-items: center;">  
-       <h5 style="margin: 15px;">Dashboard</h5>  
-       <input type="text" placeholder="Search..." style="width: 70%; padding: 10px; border-radius:30px; border: 1px solid #ccc; display: block; margin: 0 auto;">  
-   </div>  
-
-   <div class="dashboard-buttons">  
-       <button class="dashboard-button">Sales Summary</button>
-       <div class="col-sm-5 d-grid">
-           <a class="btn btn-outline-secondary text-center" asp-controller="Products" asp-action="Products" role="button">
-                <br />
-               Products
-           </a>
-            </div>
-       <button class="dashboard-button"> Inventory </button>  
-       <button class="dashboard-button"> Customers</button>  
-       <button class="dashboard-button"> Suppliers</button>  
-       <button class="dashboard-button"> Sales Report</button>  
-       <button class="dashboard-button"> User Manager</button>  
-   </div>  
-</div>  
- 
-
-</body>  
+    </body>  
 </html>

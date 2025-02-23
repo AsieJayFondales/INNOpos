@@ -1,0 +1,97 @@
+﻿@*
+    Customers/Create.cshtml
+*@
+@{
+}
+
+@model CustomersDto
+@{
+}
+
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">New Customers</h2>
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label @(ViewData.ModelState["Firstname"]?.Errors.Count > 0 ? "text-danger" : "")">Firstname</label>
+                <div class="col-sm-8">
+                    <input class="form-control @(ViewData.ModelState["Firstname"]?.Errors.Count > 0 ? "is-invalid" : "")" asp-for="Firstname" placeholder="Firstname">
+                    <span asp-validation-for="Firstname" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Lastname</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Lastname" placeholder="Lastname">
+                    <span asp-validation-for="Lastname" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Email" placeholder="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Address" placeholder="Address">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Company</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Company" placeholder="Firstname">
+                    <span asp-validation-for="Company" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label" >Phone</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Phone" placeholder="Phone">
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Notes</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" asp-for="Notes" placeholder="Notes"></textarea>
+                    <span asp-validation-for="Notes" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-2 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-dark" asp-controller="Customers" asp-action="Customers" role="button">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

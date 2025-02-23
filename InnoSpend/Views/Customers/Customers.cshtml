@@ -1,0 +1,70 @@
+﻿@model List<CustomerInfo>
+@{
+}
+
+<h2 class="text-center mb-5">List of Customers</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-warning mb-3" asp-controller="Customers" asp-action="Create">Add New Customer</a>
+    
+        <a class="btn btn-warning mb-3" asp-controller="Customers" asp-action="Create">Import New Customer</a>
+    </div>
+
+    <div class="col">
+        <!-- Search bar form -->
+        <form method="get" asp-controller="Customers" asp-action="Customers">
+            <div class="input-group">
+                <!-- Use ViewData to set the value in the search field -->
+                <input type="text" class="form-control" placeholder="Search by Name or ID" name="searchTerm" value="@ViewData["SearchTerm"]" />
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </div>
+        </form> 
+        @if (TempData["SearchMessage"] != null)
+        {
+            <div class="alert alert-warning mt-3">@TempData["SearchMessage"]</div>
+        }
+
+    </div>
+
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer Code</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th> 
+            <th>Company </th>
+            <th>Notes</th>
+            <th>Created at</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.Id</td>
+                <td>@customer.Firstname</td>
+                <td>@customer.Lastname</td>
+                <td>@customer.Email</td>
+                <td>@customer.Phone</td>
+                <td>@customer.Address</td>
+                <td>@customer.Company</td>
+                <td>@customer.Notes</td>
+                <td>@customer.CreatedAt.ToString("MM/dd/yyyy")</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Customers" asp-action="Edit"
+                       asp-route-id="@customer.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="Customers" asp-action="Delete"
+                       asp-route-id="@customer.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

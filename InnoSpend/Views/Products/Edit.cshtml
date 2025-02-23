@@ -2,24 +2,18 @@
 @{
 }
 
-
 <div class="row">
     <div class="col-md-8 mx-auto rounded border p-3">
         <h2 class="text-center mb-5">Edit Product</h2>
 
         <form method="post" enctype="multipart/form-data">
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Id</label>
-                <div class="col-sm-8">
-                    <input class="form-control" readonly value="@ViewData["ProductId"]">
-                </div>
-            </div>
+            <input type="hidden" asp-for="Id" />
 
             <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Brand</label>
+                <label class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-8">
-                    <input class="form-control" asp-for="Brand">
-                    <span asp-validation-for="Brand" class="text-danger"></span>
+                    <input class="form-control" asp-for="Name" placeholder="Product Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
             </div>
 
@@ -27,18 +21,75 @@
                 <label class="col-sm-2 col-form-label">Category</label>
                 <div class="col-sm-8">
                     <select class="form-select" asp-for="Category">
-                        <option value="Others">Others</option>
-                        <option value="Clothing">Clothing</option>
-                        <option value="Food">Food</option>
+                        @if (ViewData["Categories"] is List<Category> categories)
+                        {
+                            foreach (var category in categories)
+                            {
+                                <option value="@category.Name" selected="@(category.Name == Model.Category)">@category.Name</option>
+                            }
+                        }
                     </select>
+                    <button type="button" class="btn btn-link mt-2" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
+                        + Add category
+                    </button>
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Price</label>
+                <label class="col-sm-2 col-form-label">Availability</label>
                 <div class="col-sm-8">
-                    <input class="form-control" asp-for="Price">
+                    <div class="form-check">
+                        <input asp-for="IsAvailableForSale" class="form-check-input" type="checkbox" />
+                        <label class="form-check-label" for="IsAvailableForSale">
+                            The item is available for sale
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Sold By</label>
+                <div class="col-sm-8">
+                    <div class="form-check form-check-inline">
+                        <input asp-for="SoldBy" class="form-check-input" type="radio" value="Each" checked="@(Model.SoldBy == "Each")" />
+                        <label class="form-check-label" for="SoldBy">Each</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input asp-for="SoldBy" class="form-check-input" type="radio" value="Weight/Volume" checked="@(Model.SoldBy == "Weight/Volume")" />
+                        <label class="form-check-label" for="SoldBy">Weight/Volume</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Price (₱)</label>
+                <div class="col-sm-8">
+                    <input asp-for="Price" class="form-control" type="number" step="0.01">
                     <span asp-validation-for="Price" class="text-danger"></span>
+                    <small class="text-muted">To indicate the price upon sale, leave the field blank</small>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Cost (₱)</label>
+                <div class="col-sm-8">
+                    <input asp-for="Cost" class="form-control" type="number" step="0.01">
+                    <span asp-validation-for="Cost" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">SKU</label>
+                <div class="col-sm-8">
+                    <input asp-for="SKU" class="form-control" readonly>
+                    <small class="text-muted">Unique identifier assigned to an item</small>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Barcode</label>
+                <div class="col-sm-8">
+                    <input asp-for="Barcode" class="form-control">
                 </div>
             </div>
 
@@ -50,11 +101,9 @@
                 </div>
             </div>
 
-
-            @* Edit imagefile upload *@
             <div class="row mb-3">
-                <div class="offset-sm-4 col-sm-8">
-                    <img src="/products/@ViewData["ImageFileName"]" width="150">
+                <div class="offset-sm-2 col-sm-8">
+                    <img src="/products/@ViewData["ImageFileName"]" width="150" alt="Product Image">
                 </div>
             </div>
 
@@ -71,7 +120,7 @@
                 <div class="col-sm-8">
                     <input class="form-control-plaintext" readonly value="@ViewData["CreatedAt"]">
                 </div>
-               </div>
+            </div>
 
             <div class="row">
                 <div class="offset-sm-2 col-sm-4 d-grid">
@@ -81,13 +130,69 @@
                     <a class="btn btn-outline-dark" asp-controller="Products" asp-action="Products" role="button">
                         Cancel
                     </a>
-
                 </div>
-
             </div>
-
         </form>
-
     </div>
-
 </div>
+
+<!-- Modal for adding a new category -->
+<div class="modal fade" id="addCategoryModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="categoryInput" class="form-control" placeholder="Enter category name">
+                <div id="categoryError" class="text-danger" style="display:none;">Please enter a category name.</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" id="saveCategoryBtn" class="btn btn-primary">Save Category</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById('saveCategoryBtn').addEventListener('click', function () {
+            var categoryName = document.getElementById('categoryInput').value.trim();
+
+            if (categoryName) {
+                fetch('@Url.Action("AddCategory", "Products")', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ categoryName: categoryName })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        var select = document.querySelector('select[name="Category"]');
+                        var option = new Option(data.categoryName, data.categoryName);
+                        select.add(option);
+                        select.value = data.categoryName;
+
+                        var modal = bootstrap.Modal.getInstance(document.getElementById('addCategoryModal'));
+                        modal.hide();
+                        document.getElementById('categoryInput').value = '';
+                    } else {
+                        document.getElementById('categoryError').style.display = 'block';
+                    }
+                })
+                .catch(() => {
+                    alert('Error adding category. Please try again.');
+                });
+            } else {
+                document.getElementById('categoryError').style.display = 'block';
+            }
+        });
+    </script>
+}

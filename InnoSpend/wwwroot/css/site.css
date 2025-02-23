@@ -209,3 +209,7 @@ body {
     font-size: 11px;
     line-height: 15px;
 }
+
+.red-textbox {
+    border-block-color: red;
+}

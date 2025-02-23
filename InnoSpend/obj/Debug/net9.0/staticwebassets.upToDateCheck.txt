@@ -126,5 +126,7 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\products\20250218043346450.jpg
-wwwroot\products\20250218124203997.jpg
+wwwroot\products\20250220202146547.jpg
+wwwroot\products\20250224015526485.jpg
+wwwroot\products\20250224020826693.jpg
 wwwroot\products\cotton-t-shirt.jpg
