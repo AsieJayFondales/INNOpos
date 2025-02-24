@@ -433,3 +433,4 @@ C:\Users\user\Documents\GitHub\INNOpos\InnoSpend\obj\Debug\net9.0\refint\InnoSpe
 C:\Users\user\Documents\GitHub\INNOpos\InnoSpend\obj\Debug\net9.0\InnoSpend.pdb
 C:\Users\user\Documents\GitHub\INNOpos\InnoSpend\obj\Debug\net9.0\InnoSpend.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\INNOpos\InnoSpend\obj\Debug\net9.0\ref\InnoSpend.dll
+C:\Users\user\Documents\GitHub\INNOpos\InnoSpend\bin\Debug\net9.0\CsvHelper.dll

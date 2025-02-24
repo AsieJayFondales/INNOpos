@@ -1,0 +1,44 @@
+﻿@model CustomerInfo
+@{
+    ViewData["Title"] = "Purchase History";
+}
+
+<div class="container">
+    <h2>Purchase History for @Model.Firstname @Model.Lastname</h2>
+    <p>Customer Code: @Model.CustomerCode</p>
+
+    @if (Model.IsLoyaltyMember)
+    {
+        <p>Loyalty Points: @Model.LoyaltyPoints</p>
+    }
+
+    @if (Model.PurchaseHistory.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Invoice Number</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var purchase in Model.PurchaseHistory.OrderByDescending(p => p.PurchaseDate))
+                {
+                    <tr>
+                        <td>@purchase.PurchaseDate.ToString("MM/dd/yyyy")</td>
+                        <td>@purchase.InvoiceNumber</td>
+                        <td>@purchase.Amount.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No purchase history available for this customer.</p>
+    }
+
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit Customer</a>
+    <a asp-action="Customers" class="btn btn-secondary">Back to List</a>
+</div>

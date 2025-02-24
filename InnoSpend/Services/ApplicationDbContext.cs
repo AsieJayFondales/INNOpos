@@ -14,5 +14,16 @@ namespace InnoSpend.Services
         public DbSet<CustomerInfo> Customers { get; set; }
 
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Purchase> Purchases { get; set; } // Add this line
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Purchase>()
+                .Property(p => p.Amount)
+                .HasPrecision(18, 2);
+        }
     }
 }

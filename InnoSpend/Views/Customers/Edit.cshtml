@@ -46,13 +46,41 @@
                 </div>
             </div>
 
+            <!--For Address-->
             <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Address</label>
-                <div class="col-sm-8">
-                    <input class="form-control" asp-for="Address">
-                    <span asp-validation-for="Address" class="text-danger"></span> 
+                <label asp-for="StreetAddress" class="col-sm-2 col-form-label">Street Address</label>
+                <div class="col-sm-10">
+                    <input asp-for="StreetAddress" class="form-control" />
+                    <span asp-validation-for="StreetAddress" class="text-danger"></span>
                 </div>
             </div>
+
+            <div class="row mb-3">
+                <label asp-for="City" class="col-sm-2 col-form-label">City</label>
+                <div class="col-sm-4">
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <label asp-for="Province" class="col-sm-2 col-form-label">Province</label>
+                <div class="col-sm-4">
+                    <input asp-for="Province" class="form-control" />
+                    <span asp-validation-for="Province" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label asp-for="PostalCode" class="col-sm-2 col-form-label">Postal Code</label>
+                <div class="col-sm-4">
+                    <input asp-for="PostalCode" class="form-control" />
+                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                </div>
+                <label asp-for="Country" class="col-sm-2 col-form-label">Country</label>
+                <div class="col-sm-4">
+                    <input asp-for="Country" class="form-control" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+            </div>
+            <!--/For Address-->
 
               <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Company</label>
@@ -70,6 +98,39 @@
                     <span asp-validation-for="Notes" class="text-danger"></span>
                 </div>
             </div>
+
+            <!--modified v31-->
+            <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                        <input asp-for="MarketingConsent" class="form-check-input" type="checkbox" />
+                        <label asp-for="MarketingConsent" class="form-check-label">
+                            I consent to receive marketing communications
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            @if (Model.IsLoyaltyMember == true)
+            {
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Loyalty Points</label>
+                    <div class="col-sm-10">
+                        <input class="form-control-plaintext" readonly value="@Model.LoyaltyPoints">
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <form asp-action="EnrollInLoyalty" asp-route-id="@Model.Id" method="post">
+                            <button type="submit" class="btn btn-success">Enroll in Loyalty Program</button>
+                        </form>
+                    </div>
+                </div>
+            }
+            <!--/v31-->
 
             <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Created At</label>

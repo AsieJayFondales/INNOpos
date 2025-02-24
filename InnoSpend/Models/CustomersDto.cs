@@ -21,12 +21,30 @@ namespace InnoSpend.Models
         public string Phone { get; set; } = "";
 
         [Required]
-        public string Address { get; set; } = "";
+        public string StreetAddress { get; set; } = "";
+
+        [Required]
+        public string City { get; set; } = "";
+
+        [Required]
+        public string Province { get; set; } = "";
+
+        [Required]
+        public string PostalCode { get; set; } = "";
+
+        [Required]
+        public string Country { get; set; } = "";
 
         [Required]
         public string Company { get; set; } = "";
 
-        [Required]
         public string Notes { get; set; } = "";
+
+        public bool MarketingConsent { get; set; }
+
+        // For display only
+        public string? CustomerCode { get; set; }
+        public int? LoyaltyPoints { get; set; }
+        public bool? IsLoyaltyMember { get; set; }
     }
 }

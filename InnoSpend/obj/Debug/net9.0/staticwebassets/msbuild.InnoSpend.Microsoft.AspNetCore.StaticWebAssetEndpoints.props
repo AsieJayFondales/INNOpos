@@ -816,17 +816,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"89965"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 17:55:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/InnoSpend/products/20250224020826693.cyx71zx4w1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224020826693.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/InnoSpend/products/20250224033739045.cyx71zx4w1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224033739045.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cyx71zx4w1"},{"Name":"integrity","Value":"sha256-XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk="},{"Name":"label","Value":"_content/InnoSpend/products/20250224020826693.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89965"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 18:08:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cyx71zx4w1"},{"Name":"integrity","Value":"sha256-XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk="},{"Name":"label","Value":"_content/InnoSpend/products/20250224033739045.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89965"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 19:37:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/InnoSpend/products/20250224020826693.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224020826693.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/InnoSpend/products/20250224033739045.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250224033739045.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"89965"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 18:08:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"89965"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 19:37:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/InnoSpend/products/cotton-t-shirt.79fvplx3f2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\cotton-t-shirt.jpg'))</AssetFile>

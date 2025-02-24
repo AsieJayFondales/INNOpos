@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RD89+fYb2lXiOre/jdInPoKf+7X0031CugrnZg8Xlx8=",
+  "Hash": "Kd++raNLof89XzoHt05SRdA5PIVpsD5UMnwrB/jLVXs=",
   "Source": "InnoSpend",
   "BasePath": "_content/InnoSpend",
   "Mode": "Default",
@@ -5456,12 +5456,12 @@
       "OriginalItemSpec": "wwwroot\\products\\20250224015526485.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\20250224020826693.jpg",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\20250224033739045.jpg",
       "SourceId": "InnoSpend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\",
       "BasePath": "_content/InnoSpend",
-      "RelativePath": "products/20250224020826693#[.{fingerprint}]?.jpg",
+      "RelativePath": "products/20250224033739045#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5474,7 +5474,7 @@
       "Integrity": "XDvOA/vSCnq/wT4sGoR7nf6VYJkI5RUReqv3wk0KNrk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\20250224020826693.jpg"
+      "OriginalItemSpec": "wwwroot\\products\\20250224033739045.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\cotton-t-shirt.jpg",
@@ -36060,8 +36060,8 @@
       ]
     },
     {
-      "Route": "products/20250224020826693.cyx71zx4w1.jpg",
-      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\20250224020826693.jpg",
+      "Route": "products/20250224033739045.cyx71zx4w1.jpg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\20250224033739045.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -36082,7 +36082,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 18:08:26 GMT"
+          "Value": "Sun, 23 Feb 2025 19:37:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36096,7 +36096,7 @@
         },
         {
           "Name": "label",
-          "Value": "products/20250224020826693.jpg"
+          "Value": "products/20250224033739045.jpg"
         },
         {
           "Name": "integrity",
@@ -36105,8 +36105,8 @@
       ]
     },
     {
-      "Route": "products/20250224020826693.jpg",
-      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\20250224020826693.jpg",
+      "Route": "products/20250224033739045.jpg",
+      "AssetFile": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\wwwroot\\products\\20250224033739045.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -36127,7 +36127,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 18:08:26 GMT"
+          "Value": "Sun, 23 Feb 2025 19:37:39 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -8,7 +8,31 @@
     <div class="col">
         <a class="btn btn-warning mb-3" asp-controller="Customers" asp-action="Create">Add New Customer</a>
     
-        <a class="btn btn-warning mb-3" asp-controller="Customers" asp-action="Create">Import New Customer</a>
+        <!-- Add this where you want the import button to appear -->
+        <div class="mb-3">
+            <form asp-action="ImportCustomers" asp-controller="Customers" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" class="form-control" name="file" accept=".csv">
+                    <button class="btn btn-warning" type="submit">Import Customers</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Add this to display success/error messages -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
     </div>
 
     <div class="col">
@@ -49,12 +73,11 @@
         @foreach (var customer in Model)
         {
             <tr>
-                <td>@customer.Id</td>
+                <td>@customer.CustomerCode</td>
                 <td>@customer.Firstname</td>
                 <td>@customer.Lastname</td>
                 <td>@customer.Email</td>
-                <td>@customer.Phone</td>
-                <td>@customer.Address</td>
+                <td>@customer.Phone</td> 
                 <td>@customer.Company</td>
                 <td>@customer.Notes</td>
                 <td>@customer.CreatedAt.ToString("MM/dd/yyyy")</td>

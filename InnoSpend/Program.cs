@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddHostedService<CustomerDataRetentionService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
