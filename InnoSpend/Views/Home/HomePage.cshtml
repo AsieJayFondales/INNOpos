@@ -1,52 +1,616 @@
-﻿@using Microsoft.AspNetCore.Http  
-@inject IHttpContextAccessor HttpContextAccessor  
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
 
-@{  
-   ViewData["Title"] = "Dashboard";   
-}  
+@{
+    ViewData["Title"] = "Dashboard";
+}
 
-<!DOCTYPE html>  
-<html lang="en">  
-    <head>  
-       <meta charset="UTF-8">  
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-       <title>@ViewData["Title"]</title>  
-   
-    </head>  
-    <body>  
-      
-        <div class="container">  
-           <div style="display: flex; align-items: center;">  
-               <h5 style="margin: 15px;">Dashboard</h5>  
-               <input type="text" placeholder="Search..." style="width: 70%; padding: 10px; border-radius:30px; border: 1px solid #ccc; display: block; margin: 0 auto;">  
-              </div> 
-                <div class="row" style="border:none">
-                    <div class="col-md-4 p-3">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNOSpend - @ViewData["Title"]</title>
 
-                        <div class="row" style="white-space:nowrap">
-                            <div class="col-sm-4 d-grid">
-                                <a class="btn btn-outline-dark btn-sm mb-3 p-4 d-grid" asp-controller="Products" asp-action="Products" role="button">
-                                    Products
-                                </a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <style>
+        html, body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #212529;
+            color: #fff;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 100;
+        }
+
+        .sidebar-header {
+            padding: 1rem;
+        }
+
+        .sidebar-content {
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+
+        .sidebar-footer {
+            margin-top: auto;
+        }
+
+        .sidebar-link {
+            color: rgba(255, 255, 255, 0.8);
+            padding: 0.75rem 1rem;
+            transition: all 0.3s;
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+            .sidebar-link:hover,
+            .sidebar-link.active {
+                color: #fff;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+
+            .sidebar-link i {
+                width: 20px;
+                text-align: center;
+                margin-right: 0.5rem;
+            }
+
+        /* Content area styling */
+        .content-wrapper {
+            margin-left: 250px;
+            width: calc(100% - 250px);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .main-header {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding: 0 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            background-color: #f8f9fa;
+        }
+
+        /* Search styling */
+        .search-container {
+            position: relative;
+            width: 300px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+        }
+
+        .search-input {
+            padding-left: 35px;
+            border-radius: 20px;
+        }
+
+        /* User info styling */
+        .user-info {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        /* Card styling */
+        .card {
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        .card-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            padding: 0.75rem 1rem;
+        }
+
+        /* Loading indicator */
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+            .loading i {
+                font-size: 3rem;
+                color: #0d6efd;
+                animation: spin 1s linear infinite;
+            }
+
+        @@keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* POS specific styling */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .product-card {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+            .product-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .payment-method-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+            .payment-method-btn:hover {
+                background-color: #f8f9fa;
+            }
+
+            .payment-method-btn i {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+    </style>
+</head>
+<body>
+    <div class="d-flex h-100">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header p-3 border-bottom border-secondary">
+                <h4 class="mb-0">INNOSpend</h4>
+            </div>
+            <div class="sidebar-content">
+                <ul class="nav flex-column">
+                    <!-- Added POS as the first item -->
+                    <li class="nav-item">
+                        <a class="sidebar-link" data-url="@Url.Action("Index", "SalesTransaction")">
+                            <i class="fas fa-cash-register"></i> POS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="sidebar-link" data-url="@Url.Action("Products", "Products")">
+                            <i class="fas fa-box"></i> Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="sidebar-link" data-url="@Url.Action("Customers", "Customers")">
+                            <i class="fas fa-users"></i> Customers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="sidebar-link" data-url="@Url.Action("Index", "SalesReport")">
+                            <i class="fas fa-chart-line"></i> Sales Report
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="sidebar-link active" data-url="@Url.Action("Dashboard", "Home")">
+                            <i class="fas fa-tachometer-alt"></i> Dashboard
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-footer p-3 border-top border-secondary mt-auto">
+                <a class="sidebar-link" href="#">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
+            </div>
+        </div>
+
+        <!-- Main content area -->
+        <div class="content-wrapper">
+            <!-- Header with search -->
+            <header class="main-header">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <h5 class="mb-0" id="page-title">Dashboard</h5>
+                    <div class="search-container">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="form-control search-input" placeholder="Search..." />
+                    </div>
+                    <div class="user-info">
+                        <i class="fas fa-user-circle me-2"></i>
+                        <span>Admin</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main content - This will be dynamically loaded -->
+            <main class="main-content" id="main-content">
+                <!-- Dashboard content - Initial content -->
+                <div id="dashboard-content">
+                    <!-- Quick stats cards -->
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Total Sales</h5>
+                                    <h3 class="card-text">₱0.00</h3>
+                                    <p class="card-text"><small>Today</small></p>
+                                </div>
                             </div>
-
-                            <div class="col-sm-4 d-grid">
-                                <a class="btn btn-outline-dark btn-sm mb-3 p-4 d-grid" asp-controller="Customers" asp-action="Customers" role="button">
-                                    Customers
-                                </a>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-success text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Products</h5>
+                                    <h3 class="card-text">0</h3>
+                                    <p class="card-text"><small>Total Products</small></p>
+                                </div>
                             </div>
-
-                            <div class="col-sm-4 d-grid">
-                                <a class="btn btn-outline-dark btn-sm mb-3 p-4 d-grid" asp-area="" asp-page="/Customers/Customers" role="button">
-                                    Sales Report (Not yet Working)
-                                </a>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-info text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Customers</h5>
+                                    <h3 class="card-text">0</h3>
+                                    <p class="card-text"><small>Total Customers</small></p>
+                                </div>
                             </div>
-                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-warning text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Orders</h5>
+                                    <h3 class="card-text">0</h3>
+                                    <p class="card-text"><small>Today</small></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-           </div>  
 
-        </div>  
+                    <!-- Quick access buttons -->
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Quick Access</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-3 mb-3">
+                                            <a class="btn btn-outline-primary w-100 p-3 quick-access-btn" data-url="@Url.Action("Products", "Products")">
+                                                <i class="fas fa-box mb-2 d-block" style="font-size: 24px;"></i>
+                                                Products
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <a class="btn btn-outline-primary w-100 p-3 quick-access-btn" data-url="@Url.Action("Customers", "Customers")">
+                                                <i class="fas fa-users mb-2 d-block" style="font-size: 24px;"></i>
+                                                Customers
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <a class="btn btn-outline-primary w-100 p-3 quick-access-btn" data-url="@Url.Action("Index", "SalesReport")">
+                                                <i class="fas fa-chart-line mb-2 d-block" style="font-size: 24px;"></i>
+                                                Sales Report
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <a class="btn btn-outline-primary w-100 p-3 quick-access-btn" data-url="@Url.Action("Index", "SalesTransaction")">
+                                                <i class="fas fa-cash-register mb-2 d-block" style="font-size: 24px;"></i>
+                                                New Sale
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    </body>  
+                    <!-- Recent sales -->
+                    <div class="row mt-4">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h5>Recent Sales</h5>
+                                    <a href="#" class="btn btn-sm btn-outline-primary">View All</a>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Invoice</th>
+                                                <th>Customer</th>
+                                                <th>Date</th>
+                                                <th>Amount</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="5" class="text-center">No recent sales</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Top Selling Products</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-center py-4">
+                                        <p>No data available</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loading indicator -->
+                <div class="loading d-none">
+                    <i class="fas fa-spinner"></i>
+                    <p>Loading...</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript for dynamic content loading -->
+    <script>
+        $(document).ready(function() {
+            // Function to load content dynamically
+            function loadContent(url, title) {
+                if (!url) return;
+
+                // Show loading indicator
+                $('#main-content').find('.loading').removeClass('d-none');
+                $('#dashboard-content').addClass('d-none');
+
+                // Update page title
+                $('#page-title').text(title);
+
+                // Load content via AJAX
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    success: function(data) {
+                        // Extract the content from the response
+                        // We need to get only the content part, not the entire page
+                        let content = data;
+
+                        // If the response contains a full HTML page, extract just the content
+                        if (data.includes('<body')) {
+                            const bodyContent = data.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+                            if (bodyContent && bodyContent[1]) {
+                                // Further extract just the main content, not headers/footers
+                                const mainContent = bodyContent[1].match(/<div class="container">([\s\S]*)<\/div>/i);
+                                if (mainContent && mainContent[1]) {
+                                    content = mainContent[1];
+                                } else {
+                                    content = bodyContent[1];
+                                }
+                            }
+                        }
+
+                        // Create a temporary div to hold the content
+                        const tempDiv = $('<div></div>').html(content);
+
+                        // Remove any scripts from the content to avoid duplicates
+                        tempDiv.find('script').remove();
+
+                        // Update the content area
+                        $('#main-content').html(tempDiv.html());
+
+                        // Re-initialize any scripts needed for the new content
+                        initializeContentScripts();
+                    },
+                    error: function() {
+                        $('#main-content').html('<div class="alert alert-danger">Error loading content. Please try again.</div>');
+                    },
+                    complete: function() {
+                        // Hide loading indicator
+                        $('#main-content').find('.loading').addClass('d-none');
+                    }
+                });
+            }
+
+            // Initialize scripts for dynamically loaded content
+            function initializeContentScripts() {
+                // For POS page
+                if ($('#productSelect').length) {
+                    // Update totals function
+                    function updateTotals() {
+                        const quantity = parseFloat($('#quantity').val()) || 0;
+                        const unitPrice = parseFloat($('#unitPrice').val()) || 0;
+                        const discount = parseFloat($('#discount').val()) || 0;
+
+                        const totalBeforeDiscount = quantity * unitPrice;
+                        const totalAfterDiscount = totalBeforeDiscount - discount;
+
+                        $('#totalBeforeDiscount').text('₱' + totalBeforeDiscount.toFixed(2));
+                        $('#discountDisplay').text('₱' + discount.toFixed(2));
+                        $('#totalAfterDiscount').text('₱' + totalAfterDiscount.toFixed(2));
+                    }
+
+                    $('#productSelect').change(function() {
+                        const selectedOption = $(this).find('option:selected');
+                        const price = selectedOption.data('price');
+                        $('#unitPrice').val(price);
+                        updateTotals();
+                    });
+
+                    $('#quantity, #unitPrice, #discount').on('input', updateTotals);
+
+                    // Product card click
+                    $('.product-card').click(function() {
+                        const productId = $(this).data('id');
+                        const productPrice = $(this).data('price');
+                        const productName = $(this).data('name');
+
+                        // Set the selected product in the dropdown
+                        $('#productSelect').val(productId).trigger('change');
+
+                        // Add to cart visualization
+                        if ($('#cartItems').find('.text-muted').length) {
+                            $('#cartItems').empty();
+                        }
+
+                        // Check if product already in cart
+                        const existingItem = $('#cartItems').find(`[data-product-id="${productId}"]`);
+                        if (existingItem.length) {
+                            // Increment quantity
+                            const qtyElement = existingItem.find('.item-qty');
+                            const currentQty = parseInt(qtyElement.text());
+                            qtyElement.text(currentQty + 1);
+
+                            // Update total
+                            const totalElement = existingItem.find('.item-total');
+                            const newTotal = (currentQty + 1) * productPrice;
+                            totalElement.text('₱' + newTotal.toFixed(2));
+                        } else {
+                            // Add new item
+                            const cartItem = `
+                                <div class="cart-item" data-product-id="${productId}">
+                                    <div>
+                                        <h6 class="mb-0">${productName}</h6>
+                                        <small class="text-muted">₱${productPrice.toFixed(2)} x <span class="item-qty">1</span></small>
+                                    </div>
+                                    <div class="item-total">₱${productPrice.toFixed(2)}</div>
+                                </div>
+                            `;
+                            $('#cartItems').append(cartItem);
+                        }
+
+                        // Set quantity to 1 by default for new selections
+                        $('#quantity').val(1);
+                        updateTotals();
+                    });
+
+                    // Payment method selection
+                    $('.payment-method-btn').click(function() {
+                        $('.payment-method-btn').removeClass('active bg-light');
+                        $(this).addClass('active bg-light');
+                        const method = $(this).data('method');
+                        $('#paymentMethod').val(method);
+                    });
+
+                    // Clear cart button
+                    $('#clearCart').click(function(e) {
+                        e.preventDefault();
+                        $('#cartItems').html('<div class="text-center py-3"><p class="text-muted">No items in cart</p></div>');
+                        $('#productSelect').val('');
+                        $('#quantity').val('1');
+                        $('#unitPrice').val('');
+                        $('#discount').val('0');
+                        updateTotals();
+                    });
+
+                    // Initialize
+                    updateTotals();
+                }
+            }
+
+            // Handle sidebar link clicks
+            $('.sidebar-link').click(function(e) {
+                e.preventDefault();
+
+                // Update active state
+                $('.sidebar-link').removeClass('active');
+                $(this).addClass('active');
+
+                const url = $(this).data('url');
+                const title = $(this).text().trim();
+
+                // If clicking on Dashboard, show the dashboard content
+                if (title.includes('Dashboard')) {
+                    $('#dashboard-content').removeClass('d-none');
+                    $('#main-content').find('.loading').addClass('d-none');
+                    $('#page-title').text('Dashboard');
+                    return;
+                }
+
+                // Load the content
+                loadContent(url, title);
+            });
+
+            // Handle quick access button clicks
+            $('.quick-access-btn').click(function(e) {
+                e.preventDefault();
+
+                const url = $(this).data('url');
+                const title = $(this).text().trim();
+
+                // Update active state in sidebar
+                $('.sidebar-link').removeClass('active');
+                $(`.sidebar-link[data-url="${url}"]`).addClass('active');
+
+                // Load the content
+                loadContent(url, title);
+            });
+        });
+    </script>
+</body>
 </html>
+

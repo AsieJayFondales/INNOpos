@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Identity;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddHostedService<CustomerDataRetentionService>();
-
+builder.Services.AddHostedService<SalesDataRetentionService>(); //For sales report retention/ v57/v3.0.0
+builder.Services.AddScoped<ISalesReportService, SalesReportService>();//To generate sales reports v3.0.1 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -35,6 +36,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+
 
 app.MapControllerRoute(
     name: "default",

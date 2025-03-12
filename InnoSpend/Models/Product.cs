@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;//v4.0.0 
+using System.Collections.Generic; //v4.0.0
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace InnoSpend.Models
@@ -8,21 +10,19 @@ namespace InnoSpend.Models
         public int Id { get; set; }
 
         [MaxLength(100)]
-        public string Name { get; set; } = "";
+        public string Name { get; set; } = ""; //title 
 
         [MaxLength(100)]
-        public string Brand { get; set; } = "";
-
-        [MaxLength(100)]
-        public string Category { get; set; } = "";
+        public string? Category { get; set; } //version 10
 
         [Precision(16, 2)]
-        public decimal? Price { get; set; }
+        [DataType(DataType.Currency)] //v5.0.0
+        public decimal? Price { get; set; } 
 
         [Precision(16, 2)]
         public decimal Cost { get; set; }
 
-        public string Description { get; set; } = "";
+        public string? Description { get; set; }
 
         [MaxLength(100)]
         public string ImageFileName { get; set; } = "";

@@ -7,7 +7,8 @@ namespace InnoSpend.Models
     {
         public int Id { get; set; }
         public string Name { get; set; } = "";
-
+        public string? Icon { get; set; }
+        public int ItemCount { get; set; }
 
         public IActionResult OnPost()
         {

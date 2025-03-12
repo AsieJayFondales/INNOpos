@@ -1,138 +1,152 @@
 ﻿@model ProductDto
 @{
 }
-
+<!--v3.0.0 based on create.cshtml-->
 <div class="row">
-    <div class="col-md-8 mx-auto rounded border p-3">
-        <h2 class="text-center mb-5">Edit Product</h2>
+    <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center mb-5">Edit Product Details</h2> 
 
-        <form method="post" enctype="multipart/form-data">
-            <input type="hidden" asp-for="Id" />
+                <form method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Name</label>
-                <div class="col-sm-8">
-                    <input class="form-control" asp-for="Name" placeholder="Product Name">
-                    <span asp-validation-for="Name" class="text-danger"></span>
-                </div>
-            </div>
-
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Category</label>
-                <div class="col-sm-8">
-                    <select class="form-select" asp-for="Category">
-                        @if (ViewData["Categories"] is List<Category> categories)
-                        {
-                            foreach (var category in categories)
-                            {
-                                <option value="@category.Name" selected="@(category.Name == Model.Category)">@category.Name</option>
-                            }
-                        }
-                    </select>
-                    <button type="button" class="btn btn-link mt-2" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
-                        + Add category
-                    </button>
-                </div>
-            </div>
-
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Availability</label>
-                <div class="col-sm-8">
-                    <div class="form-check">
-                        <input asp-for="IsAvailableForSale" class="form-check-input" type="checkbox" />
-                        <label class="form-check-label" for="IsAvailableForSale">
-                            The item is available for sale
-                        </label>
+                    <!--Name of the Product-->
+                    <div class="mb-3 row">
+                        <label asp-for="Name" class="col-sm-2 col-form-label">Product Name</label>
+                        <div class="col-sm-9">
+                            <input asp-for="Name" class="form-control" placeholder="Product Name" required />
+                            <div class="invalid-feedback">
+                                Please enter a product name.
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Sold By</label>
-                <div class="col-sm-8">
-                    <div class="form-check form-check-inline">
-                        <input asp-for="SoldBy" class="form-check-input" type="radio" value="Each" checked="@(Model.SoldBy == "Each")" />
-                        <label class="form-check-label" for="SoldBy">Each</label>
+                    <!--Category-->
+                    <div class="mb-3 row">
+                        <label asp-for="Category" class="col-sm-2 col-form-label">Category</label>
+                        <div class="col-sm-9">
+                            <div class="input-group">
+                                <select asp-for="Category" class="form-select" required>
+                                    <option value="">Select a category</option>
+                                    @if (ViewData["Categories"] is List<Category> categories)
+                                    {
+                                        foreach (var category in categories)
+                                        {
+                                            <option value="@category.Name">@category.Name</option>
+                                        }
+                                    }
+                                </select>
+                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
+                                    + Add Category
+                                </button>
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a category.
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input asp-for="SoldBy" class="form-check-input" type="radio" value="Weight/Volume" checked="@(Model.SoldBy == "Weight/Volume")" />
-                        <label class="form-check-label" for="SoldBy">Weight/Volume</label>
+
+                    <!--Availability-->
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Availability</label>
+                        <div class="col-sm-9">
+                            <div class="form-check">
+                                <input asp-for="IsAvailableForSale" class="form-check-input" type="checkbox" />
+                                <label class="form-check-label" asp-for="IsAvailableForSale">
+                                    The item is available for sale
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Price (₱)</label>
-                <div class="col-sm-8">
-                    <input asp-for="Price" class="form-control" type="number" step="0.01">
-                    <span asp-validation-for="Price" class="text-danger"></span>
-                    <small class="text-muted">To indicate the price upon sale, leave the field blank</small>
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Sold By</label>
+                        <div class="col-sm-9">
+                            <div class="form-check form-check-inline">
+                                <input asp-for="SoldBy" class="form-check-input" type="radio" value="Each" checked="@(Model.SoldBy == "Each")" />
+                                <label class="form-check-label" for="SoldBy">Each</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input asp-for="SoldBy" class="form-check-input" type="radio" value="Weight/Volume" checked="@(Model.SoldBy == "Weight/Volume")" />
+                                <label class="form-check-label" for="SoldBy">Weight/Volume</label>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Cost (₱)</label>
-                <div class="col-sm-8">
-                    <input asp-for="Cost" class="form-control" type="number" step="0.01">
-                    <span asp-validation-for="Cost" class="text-danger"></span>
-                </div>
-            </div>
+                    <!--v4.0.0 allow null for price-->
+                    <div class="mb-3 row">
+                        <label asp-for="Price" class="col-sm-2 col-form-label">Price (₱)</label>
+                        <div class="col-sm-9">
+                            <input asp-for="Price" class="form-control" type="number" step="0.01" placeholder="0.00" />
+                            <small class="text-muted">Leave blank to set price upon sale</small>
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">SKU</label>
-                <div class="col-sm-8">
-                    <input asp-for="SKU" class="form-control" readonly>
-                    <small class="text-muted">Unique identifier assigned to an item</small>
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Cost (₱)</label>
+                        <div class="col-sm-9">
+                            <input asp-for="Cost" class="form-control" type="number" step="0.01">
+                            <span asp-validation-for="Cost" class="text-danger"></span>
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Barcode</label>
-                <div class="col-sm-8">
-                    <input asp-for="Barcode" class="form-control">
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">SKU</label>
+                        <div class="col-sm-9">
+                            <input asp-for="SKU" class="form-control" readonly>
+                            <small class="text-muted">Unique identifier assigned to an item</small>
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Description</label>
-                <div class="col-sm-8">
-                    <textarea class="form-control" asp-for="Description"></textarea>
-                    <span asp-validation-for="Description" class="text-danger"></span>
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Barcode</label>
+                        <div class="col-sm-9">
+                            <input asp-for="Barcode" class="form-control">
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <div class="offset-sm-2 col-sm-8">
-                    <img src="/products/@ViewData["ImageFileName"]" width="150" alt="Product Image">
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Description</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" asp-for="Description"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Image</label>
-                <div class="col-sm-8">
-                    <input type="file" class="form-control" asp-for="ImageFile">
-                    <span asp-validation-for="ImageFile" class="text-danger"></span>
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <div class="offset-sm-2 col-sm-8">
+                            <img src="/products/@ViewData["ImageFileName"]" width="150" alt="Product Image">
+                        </div>
+                    </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Created At</label>
-                <div class="col-sm-8">
-                    <input class="form-control-plaintext" readonly value="@ViewData["CreatedAt"]">
-                </div>
-            </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Image</label>
+                        <div class="col-sm-9">
+                            <input type="file" class="form-control" asp-for="ImageFile">
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                        </div>
+                    </div>
 
-            <div class="row">
-                <div class="offset-sm-2 col-sm-4 d-grid">
-                    <button type="submit" class="btn btn-secondary">Submit</button>
-                </div>
-                <div class="col-sm-4 d-grid">
-                    <a class="btn btn-outline-dark" asp-controller="Products" asp-action="Products" role="button">
-                        Cancel
-                    </a>
-                </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Created At</label>
+                        <div class="col-sm-9">
+                            <input class="form-control-plaintext" readonly value="@ViewData["CreatedAt"]">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="offset-sm-2 col-sm-4 d-grid">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                        <div class="col-sm-4 d-grid">
+                            <a class="btn btn-outline-dark" asp-controller="Products" asp-action="Products" role="button">
+                                Cancel
+                            </a>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
 </div>
 

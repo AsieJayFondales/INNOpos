@@ -17,18 +17,14 @@ namespace InnoSpend.Models
         public string Name { get; set; } = "";
 
         [Required, MaxLength(100)]
-        public string Brand { get; set; } = "";
-
-        [Required, MaxLength(100)]
-        public string Category { get; set; } = "";
+        public string? Category { get; set; } //set to null march11
 
         public decimal? Price { get; set; }
 
         [Required]
         public decimal Cost { get; set; }
 
-        [Required]
-        public string Description { get; set; } = "";
+        public string? Description { get; set; }
 
         public IFormFile? ImageFile { get; set; }
 

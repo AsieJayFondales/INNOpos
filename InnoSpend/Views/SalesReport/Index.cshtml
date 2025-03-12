@@ -1,0 +1,90 @@
+﻿<!-- Views/SalesReport/Index.cshtml -->
+<!--v54/v3.0.0--> 
+@* <h2>Generate Sales Report</h2> *@
+
+@* <form asp-action="GenerateReport" method="post"> *@
+@*     <div class="form-group"> *@
+@*         <label for="startDate">Start Date:</label> *@
+@*         <input type="date" id="startDate" name="startDate" class="form-control" required> *@
+@*     </div> *@
+@*     <div class="form-group"> *@
+@*         <label for="endDate">End Date:</label> *@
+@*         <input type="date" id="endDate" name="endDate" class="form-control" required> *@
+@*     </div> *@
+@*     <div class="form-group"> *@
+@*         <label for="reportType">Report Type:</label> *@
+@*         <select id="reportType" name="reportType" class="form-control" required> *@
+@*             <option value="daily">Daily</option> *@
+@*             <option value="weekly">Weekly</option> *@
+@*             <option value="monthly">Monthly</option> *@
+@*         </select> *@
+@*     </div> *@
+@*     <button type="submit" class="btn btn-primary">Generate Report</button> *@
+@* </form> *@
+
+<!-- Views/SalesReport/Index.cshtml -->
+<!--v62-->
+@{
+    ViewData["Title"] = "Sales Reports";
+}
+
+<div class="container-fluid">
+    <h1 class="h3 mb-4">Sales Reports</h1>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Daily Report</h5>
+                    <p class="card-text">View detailed sales data for a specific day.</p>
+                    <form asp-action="DailyReport" method="get">
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Select Date</label>
+                            <input type="date" id="date" name="date" class="form-control" value="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">View Report</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Weekly Report</h5>
+                    <p class="card-text">View sales summary for a specific week.</p>
+                    <form asp-action="WeeklyReport" method="get">
+                        <div class="mb-3">
+                            <label for="weekStart" class="form-label">Select Week</label>
+                            <input type="week" id="weekStart" name="weekStart" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">View Report</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Monthly Report</h5>
+                    <p class="card-text">View comprehensive monthly sales data.</p>
+                    <form asp-action="MonthlyReport" method="get">
+                        <div class="mb-3">
+                            <label for="month" class="form-label">Select Month</label>
+                            <input type="month" id="month" name="month" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">View Report</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+    </div>
+</div>
+
+ 
+
+
+

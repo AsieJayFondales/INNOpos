@@ -14,31 +14,25 @@ namespace InnoSpend.Models
 
         [MaxLength(100)]
         [EmailAddress]
-        public string Email { get; set; } = "";
+        public string? Email { get; set; }
 
         [Required]
         [DataType(DataType.PhoneNumber)]
         public string Phone { get; set; } = "";
+         
+        public string? StreetAddress { get; set; } 
+         
+        public string? City { get; set; }  
 
-        [Required]
-        public string StreetAddress { get; set; } = "";
+        public string? Province { get; set; } 
+         
+        public int? PostalCode { get; set; } 
+         
+        public string? Country { get; set; }
 
-        [Required]
-        public string City { get; set; } = "";
-
-        [Required]
-        public string Province { get; set; } = "";
-
-        [Required]
-        public string PostalCode { get; set; } = "";
-
-        [Required]
-        public string Country { get; set; } = "";
-
-        [Required]
         public string Company { get; set; } = "";
 
-        public string Notes { get; set; } = "";
+        public string? Notes { get; set; }
 
         public bool MarketingConsent { get; set; }
 

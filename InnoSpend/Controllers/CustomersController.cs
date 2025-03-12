@@ -58,7 +58,7 @@ namespace InnoSpend.Controllers
             {
                 Firstname = customersDto.Firstname,
                 Lastname = customersDto.Lastname,
-                Email = customersDto.Email,
+                Email = string.IsNullOrEmpty(customersDto.Email) ? "N/A" : customersDto.Email, //v3.0.0
                 Phone = customersDto.Phone,
                 StreetAddress = customersDto.StreetAddress,
                 City = customersDto.City,

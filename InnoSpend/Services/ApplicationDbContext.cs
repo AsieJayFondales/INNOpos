@@ -15,15 +15,31 @@ namespace InnoSpend.Services
 
         public DbSet<Category> Categories { get; set; }
 
-        public DbSet<Purchase> Purchases { get; set; } // Add this line
-
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<PurchaseItem> PurchaseItems { get; set; } //v3.0.2
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Purchase>()
-                .Property(p => p.Amount)
-                .HasPrecision(18, 2);
+            // Configure Purchase entity v3.0.3 incognitoversion 1 
+            modelBuilder.Entity<Purchase>(entity =>
+            {
+                entity.Property(e => e.Amount).HasPrecision(18, 2);
+                entity.Property(e => e.Discount).HasPrecision(18, 2);
+                entity.Property(e => e.NetAmount).HasPrecision(18, 2);
+            });
+
+            // Configure PurchaseItem entity v3.0.3 incognitoversion 1
+            modelBuilder.Entity<PurchaseItem>(entity =>
+            {
+                entity.Property(e => e.UnitPrice).HasPrecision(18, 2);
+                entity.Property(e => e.TotalAmount).HasPrecision(18, 2);
+                entity.Property(e => e.Discount).HasPrecision(18, 2);
+            });
         }
+
+        public DbSet<Sale> Sales { get; set; }
     }
+
+
 }

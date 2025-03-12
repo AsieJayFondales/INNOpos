@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InnoSpend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebbc02641d4f0ac6da32d188f2361752b4d77b32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dcf43c809a412fd1bead0e200846543140ae01a")]
 [assembly: System.Reflection.AssemblyProductAttribute("InnoSpend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InnoSpend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

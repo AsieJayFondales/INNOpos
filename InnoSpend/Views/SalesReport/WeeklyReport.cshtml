@@ -1,0 +1,53 @@
+﻿<!-- Views/SalesReport/WeeklyReport.cshtml -->
+<!--v3.0.2-->
+@model List<WeeklySales>
+@{
+    ViewData["Title"] = "Weekly Sales Report";
+}
+
+<h2>Weekly Sales Report</h2>
+<p>
+    Date Range:
+    @if (Model != null && Model.Any())
+    {
+        @Model.First().StartDate.ToShortDateString() <text> - </text> @Model.Last().EndDate.ToShortDateString()
+    }
+    else
+    {
+        <text>No data available</text>
+    }
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Week</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Sales</th>
+            <th>Transactions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var week in Model)
+            {
+                <tr>
+                    <td>@week.WeekNumber</td>
+                    <td>@week.StartDate.ToShortDateString()</td>
+                    <td>@week.EndDate.ToShortDateString()</td>
+                    <td>@week.Sales.ToString("C")</td>
+                    <td>@week.TransactionCount</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No weekly sales data available</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

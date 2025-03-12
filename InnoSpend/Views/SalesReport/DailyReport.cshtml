@@ -1,0 +1,115 @@
+﻿<!-- Views/SalesReport/DailyReport.cshtml -->
+<!--v47==v54/v3.0.0-->
+ 
+
+<!-- Views/SalesReport/DailyReport.cshtml -->
+<!--v62-->
+
+@model DailyReportModel
+@{
+    ViewData["Title"] = "Daily Sales Report";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3">Daily Sales Report - @ViewData["Date"]</h1>
+        <div class="btn-group">
+            <a asp-action="Export" asp-route-date="@Model.Summary.StartDate.ToString("yyyy-MM-dd")" 
+               asp-route-reportType="daily" asp-route-format="excel" 
+               class="btn btn-outline-primary">
+                Export to Excel
+            </a>
+            <a asp-action="Export" asp-route-date="@Model.Summary.StartDate.ToString("yyyy-MM-dd")" 
+               asp-route-reportType="daily" asp-route-format="pdf" 
+               class="btn btn-outline-primary">
+                Export to PDF
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Sales Summary</h5>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <th>Gross Sales:</th>
+                                <td class="text-end">@Model.Summary.GrossSales.ToString("C")</td>
+                            </tr>
+                            <tr>
+                                <th>Discounts:</th>
+                                <td class="text-end">@Model.Summary.Discounts.ToString("C")</td>
+                            </tr>
+                            <tr>
+                                <th>Net Sales:</th>
+                                <td class="text-end">@Model.Summary.NetSales.ToString("C")</td>
+                            </tr>
+                            <tr>
+                                <th>Transactions:</th>
+                                <td class="text-end">@Model.Summary.TransactionCount</td>
+                            </tr>
+                            <tr>
+                                <th>Average Transaction:</th>
+                                <td class="text-end">@Model.Summary.AverageTransactionValue.ToString("C")</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Hourly Sales</h5>
+                    <canvas id="hourlySalesChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('hourlySalesChart').getContext('2d');
+        const hourlyData = @Json.Serialize(Model.HourlySales)
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: hourlyData.map(h => `${String(h.Hour).padStart(2, '0')}:00`),
+                datasets: [{
+                    label: 'Sales',
+                    data: hourlyData.map(h => h.Sales),
+                    borderColor: 'rgb(75, 192, 192)',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '₱' + value.toLocaleString();
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return '₱' + context.raw.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}

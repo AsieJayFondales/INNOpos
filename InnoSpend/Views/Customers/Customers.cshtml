@@ -60,10 +60,8 @@
             <th>Firstname</th>
             <th>Lastname</th>
             <th>Email</th>
-            <th>Phone</th>
-            <th>Address</th> 
-            <th>Company </th>
-            <th>Notes</th>
+            <th>Phone</th> 
+            <th>Company </th> 
             <th>Created at</th>
             <th>Action</th>
         </tr>
@@ -78,8 +76,7 @@
                 <td>@customer.Lastname</td>
                 <td>@customer.Email</td>
                 <td>@customer.Phone</td> 
-                <td>@customer.Company</td>
-                <td>@customer.Notes</td>
+                <td>@customer.Company</td> 
                 <td>@customer.CreatedAt.ToString("MM/dd/yyyy")</td>
                 <td style="white-space:nowrap">
                     <a class="btn btn-primary btn-sm" asp-controller="Customers" asp-action="Edit"

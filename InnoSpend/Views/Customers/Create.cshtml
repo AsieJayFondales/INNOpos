@@ -1,8 +1,6 @@
 ﻿@*
     Customers/Create.cshtml
 *@
-@{
-}
 
 @model CustomersDto
 @{
@@ -13,29 +11,36 @@
     <div class="col-md-8 mx-auto rounded border p-3">
         <h2 class="text-center mb-5">Add New Customers</h2>
 
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
             <div class="row mb-3">
                 <label asp-for="Firstname" class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-10"> <!--v3.0.0-->
+                    <input asp-for="Firstname" class="form-control" placeholder="Firstname" required/>
+                    <div class="invalid-feedback">
+                        Please enter the new customer's first name.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mb-3">
+                <label asp-for ="Lastname" class="col-sm-2 col-form-label">Lastname</label>
                 <div class="col-sm-10">
-                    <input asp-for="Firstname" class="form-control" placeholder="Firstname"/>
-                    <span asp-validation-for="Firstname" class="text-danger"></span>
-                </div>
-            </div>
-
-
-            <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Lastname</label>
-                <div class="col-sm-8">
-                    <input class="form-control" asp-for="Lastname" placeholder="Lastname">
-                    <span asp-validation-for="Lastname" class="text-danger"></span>
+                    <!--v3.0.0-->
+                    <input class="form-control" asp-for="Lastname" placeholder="Lastname" required> 
+                    <div class="invalid-feedback">
+                        Please enter the new customer's last name.
+                    </div>
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-8">
-                    <input class="form-control" asp-for="Email" placeholder="Email">
-                    <span asp-validation-for="Email" class="text-danger"></span>
+                <label asp-for="Email" class="col-sm-2 col-form-label">Email Address (Optional)</label>
+                <div class="col-sm-10"><!--v3.0.0-->
+                    <input class="form-control" asp-for="Email" placeholder="e.g. name@example.com">
+                    <small>
+                        
+                    </small>
                 </div>
             </div>
 
@@ -43,78 +48,77 @@
             <div class="row mb-3">
                 <label asp-for="StreetAddress" class="col-sm-2 col-form-label">Street Address</label>
                 <div class="col-sm-10">
-                    <input asp-for="StreetAddress" class="form-control" />
-                    <span asp-validation-for="StreetAddress" class="text-danger"></span>
+                    <!--v3.0.0-->
+                    <input asp-for="StreetAddress" class="form-control" placeholder="House/Unit No., Block/Lot, Building Name, Street, Subdivision/Village, Barangay" />  
                 </div>
             </div>
 
             <div class="row mb-3">
                 <label asp-for="City" class="col-sm-2 col-form-label">City</label>
-                <div class="col-sm-4">
-                    <input asp-for="City" class="form-control" />
-                    <span asp-validation-for="City" class="text-danger"></span>
+                <div class="col-sm-4">   <!--v3.0.0-->
+                    <input asp-for="City" class="form-control" placeholder="City"/> 
                 </div>
                 <label asp-for="Province" class="col-sm-2 col-form-label">Province</label>
-                <div class="col-sm-4">
-                    <input asp-for="Province" class="form-control" />
-                    <span asp-validation-for="Province" class="text-danger"></span>
+                <div class="col-sm-4">   <!--v3.0.0-->
+                    <input asp-for="Province" class="form-control" placeholder="Province"/> 
                 </div>
             </div>
 
             <div class="row mb-3">
                 <label asp-for="PostalCode" class="col-sm-2 col-form-label">Postal Code</label>
                 <div class="col-sm-4">
-                    <input asp-for="PostalCode" class="form-control" />
-                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                    <input asp-for="PostalCode" class="form-control" placeholder="Postal Code"/> 
                 </div>
                 <label asp-for="Country" class="col-sm-2 col-form-label">Country</label>
                 <div class="col-sm-4">
-                    <input asp-for="Country" class="form-control" />
-                    <span asp-validation-for="Country" class="text-danger"></span>
+                    <input asp-for="Country" class="form-control" placeholder="Country" /> 
                 </div>
             </div>
 
 
             <div class="row mb-3">
-                <label class="col-sm-2 col-form-label">Company</label>
-                <div class="col-sm-8">
-                    <input class="form-control" asp-for="Company" placeholder="Firstname">
-                    <span asp-validation-for="Company" class="text-danger"></span>
+                <label class="col-sm-2 col-form-label">Company/Business</label>
+                <div class="col-sm-10">
+                    <input class="form-control" asp-for="Company" placeholder="Company/Business" required> 
+                    <div class="invalid-feedback">
+                        Please enter the new customer's company or business name. 
+                    </div>
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-2 col-form-label" >Phone</label>
-                <div class="col-sm-8">
-                    <input class="form-control" asp-for="Phone" placeholder="Phone">
-                    <span asp-validation-for="Phone" class="text-danger"></span>
+                <label class="col-sm-2 col-form-label">Phone Number</label>
+                <div class="col-sm-10">
+                    <input class="form-control" asp-for="Phone" placeholder="e.g. +639999999999 or 09299595959" required>
+                    <div class="invalid-feedback">
+                        Please enter the new customer's Phone Number.
+                    </div>
                 </div>
             </div>
 
             <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Notes</label>
-                <div class="col-sm-8">
-                    <textarea class="form-control" asp-for="Notes" placeholder="Notes"></textarea>
-                    <span asp-validation-for="Notes" class="text-danger"></span>
+                <div class="col-sm-10">
+                    <textarea class="form-control" asp-for="Notes" placeholder="Notes"></textarea> 
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <div class="col-sm-10 offset-sm-2">
-                    <div class="form-check">
-                        <input asp-for="MarketingConsent" class="form-check-input" type="checkbox" />
-                        <label asp-for="MarketingConsent" class="form-check-label">
-                            I consent to receive marketing communications
-                        </label>
-                    </div>
-                </div>
-            </div>
+            @* <div class="row mb-3"> *@
+            @*     <div class="col-sm-10 offset-sm-2"> *@
+            @*         <div class="form-check"> *@
+            @*             <input asp-for="MarketingConsent" class="form-check-input" type="checkbox" /> *@
+            @*             <label asp-for="MarketingConsent" class="form-check-label"> *@
+            @*                 I consent to receive marketing communications *@
+            @*             </label> *@
+            @*         </div> *@
+            @*     </div> *@
+            @* </div> *@
 
             <div class="row">
-                <div class="offset-sm-2 col-sm-4 d-grid">
+                <div class="offset-sm-2 col-sm-5 d-grid">
                     <button type="submit" class="btn btn-secondary">Submit</button>
                 </div>
-                <div class="col-sm-4 d-grid">
+                <div class="col-sm-5 d-grid">
                     <a class="btn btn-outline-dark" asp-controller="Customers" asp-action="Customers" role="button">
                         Cancel
                     </a>
@@ -133,4 +137,24 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+
+    <script>
+         // Enable Bootstrap form validation
+        (() => {
+            'use strict'
+
+            const forms = document.querySelectorAll('.needs-validation')
+
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
 }

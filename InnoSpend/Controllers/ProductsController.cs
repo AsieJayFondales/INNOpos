@@ -68,55 +68,58 @@ namespace InnoSpend.Controllers
 
 
 
+
         //redirecting to the List of products after clicking submit
-        [HttpPost]
-        public IActionResult Create(ProductDto productDto)
-        {
-            if (productDto.ImageFile == null)
-            {
-                ModelState.AddModelError("ImageFile", "The image file is required");
-            }
+    [HttpPost]
+public IActionResult Create(ProductDto productDto)
+{
+    if (productDto.ImageFile == null)
+    {
+        ModelState.AddModelError("ImageFile", "The image file is required");
+    }
 
-            if (!ModelState.IsValid)
-            {
-                ViewData["Categories"] = context.Categories.ToList();
-                return View(productDto);
-            }
+    if (!ModelState.IsValid)
+    {
+        ViewData["Categories"] = context.Categories.ToList();
+        return View(productDto);
+    }
 
-            // Use the SKU from the form if it's provided, otherwise generate a new one
-            string sku = !string.IsNullOrEmpty(productDto.SKU) ? productDto.SKU : GenerateSKU();
+    // Use the SKU from the form if it's provided, otherwise generate a new one
+    string sku = !string.IsNullOrEmpty(productDto.SKU) ? productDto.SKU : GenerateSKU();
 
-            // Save the file image of the newly created product
-            string newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-            newFileName += Path.GetExtension(productDto.ImageFile!.FileName);
+    // Save the file image of the newly created product
+    string newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+    newFileName += Path.GetExtension(productDto.ImageFile!.FileName);
 
-            string imageFullPath = Path.Combine(environment.WebRootPath, "products", newFileName);
-            using (var stream = System.IO.File.Create(imageFullPath))
-            {
-                productDto.ImageFile.CopyTo(stream);
-            }
+    string imageFullPath = Path.Combine(environment.WebRootPath, "products", newFileName);
+    using (var stream = System.IO.File.Create(imageFullPath))
+    {
+        productDto.ImageFile.CopyTo(stream);
+    }
 
-            // Save the newly created product in the database
-            Product product = new Product()
-            {
-                Name = productDto.Name, 
-                Category = productDto.Category,
-                Price = productDto.Price,
-                Cost = productDto.Cost,
-                Description = productDto.Description,
-                ImageFileName = newFileName,
-                CreatedAt = DateTime.Now,
-                IsAvailableForSale = productDto.IsAvailableForSale,
-                SoldBy = productDto.SoldBy,
-                SKU = sku,
-                Barcode = productDto.Barcode
-            };
+    // Save the newly created product in the database
+    Product product = new Product()
+    {
+        Name = productDto.Name,
+        Category = productDto.Category,
+        Price = productDto.Price, // Allow null value
+        Cost = productDto.Cost,
+        Description = productDto.Description,
+        ImageFileName = newFileName,
+        CreatedAt = DateTime.Now,
+        IsAvailableForSale = productDto.IsAvailableForSale,
+        SoldBy = productDto.SoldBy,
+        SKU = sku,
+        Barcode = productDto.Barcode
+    };
 
-            context.Products.Add(product);
-            context.SaveChanges();
+    
+    context.Products.Add(product);
+    context.SaveChanges();
 
-            return RedirectToAction("Products", "Products");
-        }
+    return RedirectToAction("Products", "Products");
+}
+
 
 
         public IActionResult Edit(int id)

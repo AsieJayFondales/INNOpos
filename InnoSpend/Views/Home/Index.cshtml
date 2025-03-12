@@ -1,8 +1,414 @@
-﻿@{
-    ViewData["Title"] = "Landing Page";
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "InnoSpend POS";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    /* Custom styles for the landing page */
+    :root {
+        --primary-color: #3861fb;
+        --secondary-color: #ff5a00;
+        --dark-blue: #071027;
+        --light-gray: #f8f9fa;
+        --text-color: #152f62;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow-x: hidden;
+    }
+
+    .hero-section {
+        background-image: url('/images/pattern-bg.svg');
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.85);
+            z-index: 0;
+        }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .navbar-custom {
+        background-color: white !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-link {
+        color: var(--text-color) !important;
+        font-weight: 500;
+        margin: 0 10px;
+    }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+    .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+
+    .btn-secondary {
+        background-color: white;
+        color: var(--text-color);
+        border: 1px solid #dee2e6;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+
+        .btn-secondary:hover {
+            background-color: #f8f9fa;
+            color: var(--text-color);
+        }
+
+    .btn-cta {
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+        color: white;
+        border-radius: 6px;
+        padding: 12px 30px;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+        .btn-cta:hover {
+            background-color: #e65100;
+            border-color: #e65100;
+            color: white;
+        }
+
+    .update-badge {
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .update-text {
+        color: var(--text-color);
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        color: var(--dark-blue);
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        color: var(--text-color);
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features-section {
+        padding: 80px 0;
+        background-color: var(--light-gray);
+    }
+
+    .feature-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+        background-color: rgba(56, 97, 251, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+        .feature-icon i {
+            color: var(--primary-color);
+            font-size: 24px;
+        }
+
+    /* Make the page scrollable */
+    .scrollable-content {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    /* Responsive adjustments */
+    @@media (max-width: 768px) {
+        h1
+
+    {
+        font-size: 2.5rem;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    }
+</style>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-2" style="color: #3861fb;">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <line x1="2" y1="10" x2="22" y2="10" />
+            </svg>
+            <span style="font-weight: 600; color: #071027;">POS</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Product
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productDropdown">
+                        <li><a class="dropdown-item" href="#">Features</a></li>
+                        <li><a class="dropdown-item" href="#">Pricing</a></li>
+                        <li><a class="dropdown-item" href="#">Integrations</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Solutions
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                        <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                        <li><a class="dropdown-item" href="#">Retail</a></li>
+                        <li><a class="dropdown-item" href="#">Services</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="learnDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Learn
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="learnDropdown">
+                        <li><a class="dropdown-item" href="#">Documentation</a></li>
+                        <li><a class="dropdown-item" href="#">Tutorials</a></li>
+                        <li><a class="dropdown-item" href="#">Resources</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+
+            <div class="d-flex">
+                <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-secondary me-2">Log In</a>
+                <a href="#contact-form" class="btn btn-primary">Get a Demo</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content - Scrollable -->
+<div class="scrollable-content" style="margin-top: 76px;">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-content text-center">
+            <div class="mb-4">
+                <span class="update-badge">Update</span>
+                <span class="update-text">Try now our new upgrade system 1.45</span>
+            </div>
+
+            <h1>POS System Transforms<br>Restaurant Businesses</h1>
+
+            <p class="subtitle">We handle everything, from POS to payroll, so you can focus on what you love.</p>
+
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-cta">Start for Now!</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2>Powerful Features for Your Business</h2>
+                    <p class="lead">Everything you need to manage your restaurant efficiently</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cash-register"></i>
+                        </div>
+                        <h3>Easy Checkout</h3>
+                        <p>Process transactions quickly with an intuitive interface designed for speed and accuracy.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Real-time Analytics</h3>
+                        <p>Get instant insights into your sales, inventory, and customer behavior to make informed decisions.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Staff Management</h3>
+                        <p>Easily manage employee schedules, track performance, and handle payroll all in one place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2>Trusted by Restaurants Everywhere</h2>
+                    <p class="lead">See what our customers are saying about our POS system</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">JD</div>
+                                <div class="ms-3">
+                                    <h5 class="mb-0">John Doe</h5>
+                                    <small class="text-muted">Restaurant Owner</small>
+                                </div>
+                            </div>
+                            <p class="card-text">"This POS system has completely transformed how we run our restaurant. The interface is intuitive, and the reporting features give us insights we never had before."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">JS</div>
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Jane Smith</h5>
+                                    <small class="text-muted">Café Manager</small>
+                                </div>
+                            </div>
+                            <p class="card-text">"The customer support is outstanding. Whenever we have a question or issue, the team is quick to respond and help us resolve it. Highly recommend!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary rounded-circle text-white d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">RJ</div>
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Robert Johnson</h5>
+                                    <small class="text-muted">Food Truck Owner</small>
+                                </div>
+                            </div>
+                            <p class="card-text">"As a food truck owner, I needed something mobile and reliable. This POS system works perfectly even with spotty internet connections and helps me track inventory on the go."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-5 bg-light" id="contact-form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2>Ready to Transform Your Business?</h2>
+                    <p class="lead mb-5">Get in touch with us to schedule a demo and see how our POS system can help your restaurant thrive.</p>
+
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Business Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="4" placeholder="Tell us about your business needs"></textarea>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn btn-cta px-5">Request a Demo</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!-- Add this to enable dropdowns -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize all dropdowns
+        var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
+        var dropdownList = dropdownElementList.map(function(dropdownToggleEl) {
+            return new bootstrap.Dropdown(dropdownToggleEl);
+        });
+    });
+</script>

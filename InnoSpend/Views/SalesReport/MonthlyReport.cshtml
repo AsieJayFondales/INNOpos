@@ -1,0 +1,30 @@
+﻿<!-- Views/SalesReport/MonthlyReport.cshtml -->
+<!--updated/v3.0.1--> 
+
+@model List<MonthlySales>
+@{
+    ViewData["Title"] = "Monthly Sales Report";
+}
+
+<h2>Monthly Sales Report</h2>
+<p>Month: @Model.First().Date.ToString("MMMM yyyy")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Sales</th>
+            <th>Transactions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var day in Model)
+        {
+            <tr>
+                <td>@day.Date.ToShortDateString()</td>
+                <td>@day.Sales.ToString("C")</td>
+                <td>@day.TransactionCount</td>
+            </tr>
+        }
+    </tbody>
+</table>

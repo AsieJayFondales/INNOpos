@@ -1,0 +1,28 @@
+﻿<!-- Views/SalesReport/SalesByCategory.cshtml -->
+<!--v54/v3.0.0-->
+
+@model List<SalesByCategoryModel>
+
+<h2>Sales by Category</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Total Sales</th>
+            <th>Percentage of Total Sales</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Category</td>
+                <td>@category.TotalSales.ToString("C")</td>
+                <td>@category.PercentageOfTotalSales.ToString("F2")%</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+ 

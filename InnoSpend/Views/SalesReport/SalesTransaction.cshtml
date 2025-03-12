@@ -1,0 +1,144 @@
+﻿@model SalesTransactionModel
+@{
+    ViewData["Title"] = "New Sale";
+}
+
+<div class="container">
+    <h2>New Sale</h2>
+
+    <form asp-action="NewSale" method="post">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Product Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="ProductId" class="form-label">Product</label>
+                            <select asp-for="ProductId" class="form-select" id="productSelect">
+                                <option value="">-- Select Product --</option>
+                                @foreach (var productDto in ViewBag.Products)
+                                {
+                                    <option value="@productDto.Id" data-price="@productDto.Price">@productDto.Name</option>
+                                }
+                            </select>
+                            <span asp-validation-for="ProductId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Quantity" class="form-label">Quantity</label>
+                            <input asp-for="Quantity" class="form-control" id="quantity" />
+                            <span asp-validation-for="Quantity" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="UnitPrice" class="form-label">Unit Price</label>
+                            <input asp-for="UnitPrice" class="form-control" id="unitPrice" />
+                            <span asp-validation-for="UnitPrice" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Discount" class="form-label">Discount</label>
+                            <input asp-for="Discount" class="form-control" id="discount" />
+                            <span asp-validation-for="Discount" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Customer Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="CustomerCode" class="form-label">Customer</label>
+                            <select asp-for="CustomerCode" class="form-select">
+                                <option value="0">Walk-in Customer</option>
+                                @foreach (var customer in ViewBag.Customers)
+                                {
+                                    <option value="@customer.CustomerCode">@customer.Firstname @customer.Lastname</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Payment Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="PaymentMethod" class="form-label">Payment Method</label>
+                            <select asp-for="PaymentMethod" class="form-select">
+                                <option value="Cash">Cash</option>
+                                <option value="Credit Card">Credit Card</option>
+                                <option value="Debit Card">Debit Card</option>
+                                <option value="GCash">GCash</option>
+                                <option value="Maya">Maya</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Sale Summary</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label class="form-label">Total Before Discount</label>
+                            <div class="form-control" id="totalBeforeDiscount">₱0.00</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Discount</label>
+                            <div class="form-control" id="discountDisplay">₱0.00</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Total After Discount</label>
+                            <div class="form-control" id="totalAfterDiscount">₱0.00</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Complete Sale</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            function updateTotals() {
+                const quantity = parseFloat($('#quantity').val()) || 0;
+                const unitPrice = parseFloat($('#unitPrice').val()) || 0;
+                const discount = parseFloat($('#discount').val()) || 0;
+
+                const totalBeforeDiscount = quantity * unitPrice;
+                const totalAfterDiscount = totalBeforeDiscount - discount;
+
+                $('#totalBeforeDiscount').text('₱' + totalBeforeDiscount.toFixed(2));
+                $('#discountDisplay').text('₱' + discount.toFixed(2));
+                $('#totalAfterDiscount').text('₱' + totalAfterDiscount.toFixed(2));
+            }
+
+            $('#productSelect').change(function() {
+                const selectedOption = $(this).find('option:selected');
+                const price = selectedOption.data('price');
+                $('#unitPrice').val(price);
+                updateTotals();
+            });
+
+            $('#quantity, #unitPrice, #discount').on('input', updateTotals);
+
+            // Initialize
+            updateTotals();
+        });
+    </script>
+}

@@ -1,58 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\source\\repos\\innopos\\innospend\\views\\salesreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\salesreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\source\\repos\\innopos\\innospend\\views\\salesreport\\salestransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\salesreport\\salestransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./db9/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\source\\repos\\innopos\\innospend\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\source\\repos\\innopos\\innospend\\models\\salestransactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:models\\salestransactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\views\\customers\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\customers\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\source\\repos\\innopos\\innospend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\services\\customerdataretentionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:services\\customerdataretentionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\views\\customers\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\customers\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\models\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:models\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\documents\\github\\innopos\\innospend\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|c:\\users\\user\\source\\repos\\innopos\\innospend\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50716B4E-DB69-4CA1-9425-BDF058435D52}|InnoSpend.csproj|solutionrelative:models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,172 +37,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Views\\SalesReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SalesReport\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Views\\SalesReport\\Index.cshtml",
+              "RelativeToolTip": "Views\\SalesReport\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T16:52:06.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T08:19:42.038Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Services\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T09:10:16.225Z",
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./db9/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-12T07:55:07.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Purchase.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Models\\Purchase.cs",
-              "RelativeDocumentMoniker": "Models\\Purchase.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Models\\Purchase.cs",
-              "RelativeToolTip": "Models\\Purchase.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA3wAkAAAAkAAAAAAAAAA==",
+              "Title": "SalesTransactionModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Models\\SalesTransactionModel.cs",
+              "RelativeDocumentMoniker": "Models\\SalesTransactionModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Models\\SalesTransactionModel.cs",
+              "RelativeToolTip": "Models\\SalesTransactionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T09:08:28.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PurchaseHistory.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\PurchaseHistory.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\PurchaseHistory.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\PurchaseHistory.cshtml",
-              "RelativeToolTip": "Views\\Customers\\PurchaseHistory.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAArwBkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T08:04:09.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\ICustomerService.cs",
-              "RelativeToolTip": "Services\\ICustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T08:00:33.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:51:24.186Z",
+              "WhenOpened": "2025-03-12T05:52:56.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CustomerDataRetentionService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\CustomerDataRetentionService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerDataRetentionService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\CustomerDataRetentionService.cs",
-              "RelativeToolTip": "Services\\CustomerDataRetentionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Models\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Models\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Models\\ProductDto.cs",
+              "RelativeToolTip": "Models\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:44:14.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:04:36.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAkwDkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:33:03.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:02:39.519Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Services\\CustomerService.cs",
-              "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAtwC8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:27:24.662Z",
+              "Title": "SalesTransaction.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Views\\SalesReport\\SalesTransaction.cshtml",
+              "RelativeDocumentMoniker": "Views\\SalesReport\\SalesTransaction.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\INNOpos\\InnoSpend\\Views\\SalesReport\\SalesTransaction.cshtml",
+              "RelativeToolTip": "Views\\SalesReport\\SalesTransaction.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T20:01:34.44Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomersDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Models\\CustomersDto.cs",
-              "RelativeDocumentMoniker": "Models\\CustomersDto.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Models\\CustomersDto.cs",
-              "RelativeToolTip": "Models\\CustomersDto.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA6wC4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:10:59.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customers.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Models\\Customers.cs",
-              "RelativeDocumentMoniker": "Models\\Customers.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Models\\Customers.cs",
-              "RelativeToolTip": "Models\\Customers.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAIA2wEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:08:28.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Edit.cshtml",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAqwIMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T06:59:39.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\Create.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Create.cshtml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAmwGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T06:59:22.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customers.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\Customers.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Customers.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\INNOpos\\InnoSpend\\Views\\Customers\\Customers.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Customers.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T06:56:50.816Z"
             }
           ]
         }

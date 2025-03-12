@@ -1,0 +1,29 @@
+﻿<!-- Views/SalesReport/SalesByItem.cshtml v47==v54-->
+
+@model List<SalesByItemModel>
+
+<h2>Sales by Item</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Units Sold</th>
+            <th>Total Sales</th>
+            <th>Average Sale Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.UnitsSold</td>
+                <td>@item.TotalSales.ToString("C")</td>
+                <td>@item.AverageSalePrice.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+ 
